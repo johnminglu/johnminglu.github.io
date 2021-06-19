@@ -1,0 +1,2122 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+        <h1 class="post-headline">John Lu</h1>
+        <h3 class="post-description">MD-PhD Student | Stanford University School of Medicine</h3>
+
+        <div class="links scroll">
+        <a href="/">Home</a>
+        <!--<a href="/projects/">Projects</a>-->
+        <a href="/travel/">Travel</a>
+	<a href="/blog/">Blog</a>
+        <a href="/archive/">Archive</a>
+</div>
+
+
+        <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>John Lu | MD-PhD Student Stanford University School of Medicine</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="John Lu" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="MD-PhD Student Stanford University School of Medicine" />
+<meta property="og:description" content="MD-PhD Student Stanford University School of Medicine" />
+<meta property="og:site_name" content="John Lu" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="John Lu" />
+<script type="application/ld+json">
+{"url":"/travel/","headline":"John Lu","description":"MD-PhD Student Stanford University School of Medicine","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+        <!-- Generated using https://favicon.io/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png?">
+<link rel="manifest" href=site.webmanifest">
+
+
+        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
+        <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+
+    </head>
+
+    <body>
+        <main>
+            <article>
+                
+    
+
+
+<p>One of my passions is traveling to see the world as it is. I enjoy meeting new people and learning new things along the way. I particularly enjoy visiting UNESCO World Heritage Sites because of their outstanding cultural or natural importance to the common culture and heritage of humanity.</p>
+
+<div id="leaflet-map-836cfd36192b4c9d2c338d0e9d2b369a" class="leaflet-map"></div>
+<script>(() => {
+// Specify configuration variables, setup any elements and styling
+    var leafletCdn = "https://unpkg.com/leaflet@1.6.0/dist/";
+    var esriLeafletCdn = "https://unpkg.com/esri-leaflet/dist/";
+
+    // Get tag input arguments & inside block object list
+    var tagInputArg = {"center" : [40, 0], "zoom" : 1.5,  "providerBasemap": "Stamen.Watercolor"  } ;
+    var blockLeafletItems = [
+{id: "9d87ae0d9a4ceba490c7a9d6d3c27032",
+              type: "LeafletMarker",
+              value: { "latitude" : 47.7980953, "longitude" : 13.0501204, "popupContent" : "Historic Centre of the City of Salzburg"} },
+{id: "62be90399da41aa70fb2d9403d7a3eb3",
+              type: "LeafletMarker",
+              value: { "latitude" : 48.1858124, "longitude" : 16.312764, "popupContent" : "Palace and Gardens of Schönbrunn"} },
+{id: "40423c609f0c62c156a5ece3119a32c9",
+              type: "LeafletMarker",
+              value: { "latitude" : 48.3896089, "longitude" : 15.4748897, "popupContent" : "Wachau Cultural Landscape"} },
+{id: "ec51ed5e367a9bf10c51c6fdf156c5b4",
+              type: "LeafletMarker",
+              value: { "latitude" : 48.2084917, "longitude" : 16.3723747, "popupContent" : "Historic Centre of Vienna"} },
+{id: "2e00100e1965ee6e39692b62b0b5d106",
+              type: "LeafletMarker",
+              value: { "latitude" : 13.0820809, "longitude" : -59.6060126, "popupContent" : "Historic Bridgetown and its Garrison"} },
+{id: "81f568cb42fe7478811ffaf98c762da5",
+              type: "LeafletMarker",
+              value: { "latitude" : 50.8467887, "longitude" : 4.3524356, "popupContent" : "La Grand-Place, Brussels"} },
+{id: "844aa9babe391fd4dbc37ca9e6294ac5",
+              type: "LeafletMarker",
+              value: { "latitude" : 51.2081, "longitude" : 3.2248, "popupContent" : "Belfries of Belgium and France  "} },
+{id: "5f5fe6be5cb77790206b14ccb8038032",
+              type: "LeafletMarker",
+              value: { "latitude" : 51.2093205, "longitude" : 3.2242126, "popupContent" : "Historic Centre of Brugge"} },
+{id: "d21b59f237fa0b77f680601a6947f5ae",
+              type: "LeafletMarker",
+              value: { "latitude" : 50.8263577, "longitude" : 4.3654132, "popupContent" : "Major Town Houses of the Architect Victor Horta (Brussels)"} },
+{id: "d7f5d21ddc108345bb9df8670a4f789f",
+              type: "LeafletMarker",
+              value: { "latitude" : 43.3372849, "longitude" : 17.8150151, "popupContent" : "Old Bridge Area of the Old City of Mostar"} },
+{id: "53fbf23b58a459d39a71c74079bd78d0",
+              type: "LeafletMarker",
+              value: { "latitude" : 46.8121818, "longitude" : -71.2064933, "popupContent" : "Historic District of Old Québec"} },
+{id: "8df27ef5559cda748e305b75272c1d34",
+              type: "LeafletMarker",
+              value: { "latitude" : 41.797076, "longitude" : 123.455772, "popupContent" : "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang"} },
+{id: "2f17138810aee0b6dbf8f8b000fab4c4",
+              type: "LeafletMarker",
+              value: { "latitude" : 40.4319, "longitude" : 116.5704, "popupContent" : "The Great Wall"} },
+{id: "8a213d25162f74212d19cc868c6bc59a",
+              type: "LeafletMarker",
+              value: { "latitude" : 33.2600421, "longitude" : 103.9185994, "popupContent" : "Jiuzhaigou Valley Scenic and Historic Interest Area"} },
+{id: "c9a45c03a5a51c12646b334d6819ff2f",
+              type: "LeafletMarker",
+              value: { "latitude" : 29.516007, "longitude" : 103.334737, "popupContent" : "Mount Emei Scenic Area, including Leshan Giant Buddha Scenic Area"} },
+{id: "63ce57524b97ea32d05e6e869714e068",
+              type: "LeafletMarker",
+              value: { "latitude" : 31.324225, "longitude" : 120.629969, "popupContent" : "Classical Gardens of Suzhou"} },
+{id: "1f9eeaed356abf7259a7ecf03e535373",
+              type: "LeafletMarker",
+              value: { "latitude" : 40.0080982, "longitude" : 116.2982148, "popupContent" : "Summer Palace, an Imperial Garden in Beijing"} },
+{id: "dae81876bf96eb3666e07de6fce8fd41",
+              type: "LeafletMarker",
+              value: { "latitude" : 39.8821803, "longitude" : 116.4066056, "popupContent" : "Temple of Heaven: an Imperial Sacrificial Altar in Beijing"} },
+{id: "452a000dc437dd982e7130c79f0ca736",
+              type: "LeafletMarker",
+              value: { "latitude" : 31.110449, "longitude" : 102.901969, "popupContent" : "Sichuan Giant Panda Sanctuaries - Wolong, Mt Siguniang and Jiajin Mountains"} },
+{id: "f02138c3b1e5d8f7ac3dfe0d78924cfe",
+              type: "LeafletMarker",
+              value: { "latitude" : 10.3932, "longitude" : -75.4832, "popupContent" : "Port, Fortresses and Group of Monuments, Cartagena"} },
+{id: "cf1a0630510e54a998278699a071b137",
+              type: "LeafletMarker",
+              value: { "latitude" : 42.6410427, "longitude" : 18.1101425, "popupContent" : "Old City of Dubrovnik"} },
+{id: "5bd88e9ec5f21c087cbbe29d0b732d03",
+              type: "LeafletMarker",
+              value: { "latitude" : 48.8129556, "longitude" : 14.3151693, "popupContent" : "Historic Centre of Český Krumlov"} },
+{id: "969aa734e57338c5b54c1578ead95214",
+              type: "LeafletMarker",
+              value: { "latitude" : 50.0875692, "longitude" : 14.4211875, "popupContent" : "Historic Centre of Prague"} },
+{id: "6bac8380f3c0f5eb8a66ab49e65cd778",
+              type: "LeafletMarker",
+              value: { "latitude" : 49.944911, "longitude" : 15.26362, "popupContent" : "Kutná Hora: Historical Town Centre with the Church of St Barbara and the Cathedral of Our Lady at Sedlec"} },
+{id: "5f854c9e61519ca3968050deec4da517",
+              type: "LeafletMarker",
+              value: { "latitude" : 48.8057438, "longitude" : 2.1164023, "popupContent" : "Palace and Park of Versailles"} },
+{id: "f513964fe16be93ac0fca90afb8f8b2b",
+              type: "LeafletMarker",
+              value: { "latitude" : 43.673049, "longitude" : 4.633614, "popupContent" : "Arles, Roman and Romanesque Monuments"} },
+{id: "8878dd3a24900affe1526f0e0a90d090",
+              type: "LeafletMarker",
+              value: { "latitude" : 44.1421744, "longitude" : 4.8047646, "popupContent" : "Roman Theatre and its Surroundings and the 'Triumphal Arch' of Orange"} },
+{id: "a87ac95c1ea0d438bdb3cceaa182d421",
+              type: "LeafletMarker",
+              value: { "latitude" : 43.947566, "longitude" : 4.53496, "popupContent" : "Pont du Gard (Roman Aqueduct)"} },
+{id: "72a383941b935d59a6e0d6f4250e9362",
+              type: "LeafletMarker",
+              value: { "latitude" : 48.8418565, "longitude" : 2.2683737, "popupContent" : "Paris, Banks of the Seine"} },
+{id: "c9ad2f416a4e2ecc183d9b9b2f3d2641",
+              type: "LeafletMarker",
+              value: { "latitude" : 43.9508521, "longitude" : 4.8076971, "popupContent" : "Historic Centre of Avignon: Papal Palace, Episcopal Ensemble and Avignon Bridge"} },
+{id: "dcf5e20b31bd554bd91bfceb9fb6ae69",
+              type: "LeafletMarker",
+              value: { "latitude" : 43.2427146, "longitude" : 2.4054572, "popupContent" : "Canal du Midi"} },
+{id: "12b8c9794eda4e1d50948ef555d47646",
+              type: "LeafletMarker",
+              value: { "latitude" : 43.2060816, "longitude" : 2.3641961, "popupContent" : "Historic Fortified City of Carcassonne"} },
+{id: "87fbd2e50841c5d1d85101d88bc79e79",
+              type: "LeafletMarker",
+              value: { "latitude" : 42.6755943, "longitude" : 0.0337596, "popupContent" : "Pyrénées - Mont Perdu "} },
+{id: "d219a8e82fbf68d7e275a3df860c7e52",
+              type: "LeafletMarker",
+              value: { "latitude" : 44.8944, "longitude" : -0.1557, "popupContent" : "Jurisdiction of Saint-Emilion"} },
+{id: "50ab796d08a305236ec662a5989bdf21",
+              type: "LeafletMarker",
+              value: { "latitude" : 47.5532402, "longitude" : 1.0105289, "popupContent" : "The Loire Valley between Sully-sur-Loire and Chalonnes "} },
+{id: "35a6d1c75348ed74d92c18aff6d5effd",
+              type: "LeafletMarker",
+              value: { "latitude" : 44.8276722, "longitude" : -0.5520093, "popupContent" : "Bordeaux, Port of the Moon"} },
+{id: "03a481999e70102dd6ddaf0012305f1e",
+              type: "LeafletMarker",
+              value: { "latitude" : 50.7747198, "longitude" : 6.0839201, "popupContent" : "Aachen Cathedral"} },
+{id: "649f05ddbd782ad28f4fbdaf31cce051",
+              type: "LeafletMarker",
+              value: { "latitude" : 50.9412784, "longitude" : 6.9582814, "popupContent" : "Cologne Cathedral"} },
+{id: "27244d952d72b662c72ded281c59f3ee",
+              type: "LeafletMarker",
+              value: { "latitude" : 52.5169328, "longitude" : 13.4018997, "popupContent" : "Museumsinsel (Museum Island), Berlin"} },
+{id: "62ad2b47135a95dd056bbda2239d8b4f",
+              type: "LeafletMarker",
+              value: { "latitude" : 51.4877427, "longitude" : 7.0439172, "popupContent" : "Zollverein Coal Mine Industrial Complex in Essen"} },
+{id: "3cb6908b7bb22e8c221efac9ad5e4253",
+              type: "LeafletMarker",
+              value: { "latitude" : 50.1614667, "longitude" : 7.7008637, "popupContent" : "Upper Middle Rhine Valley"} },
+{id: "25b7fdb93d5325921a4cf9d265c1baf8",
+              type: "LeafletMarker",
+              value: { "latitude" : 51.0447497, "longitude" : 13.8185267, "popupContent" : "Dresden Elbe Valley Delisted "} },
+{id: "50c7ad2f985225b112dbf52ffe33caa8",
+              type: "LeafletMarker",
+              value: { "latitude" : 5.8142836, "longitude" : 0.0746767, "popupContent" : "Forts and Castles, Volta, Greater Accra, Central and Western Regions"} },
+{id: "1643a808bd0a2aee9690fce76f393cfb",
+              type: "LeafletMarker",
+              value: { "latitude" : 6.4011213, "longitude" : -1.6258326, "popupContent" : "Asante Traditional Buildings"} },
+{id: "cfe6ae9873789e12be4dbf0300d03b13",
+              type: "LeafletMarker",
+              value: { "latitude" : 37.9715323, "longitude" : 23.7257492, "popupContent" : "Acropolis, Athens"} },
+{id: "8cc665c61f62fc4b7f20638ec5022bcb",
+              type: "LeafletMarker",
+              value: { "latitude" : 38.4803028, "longitude" : 22.4997992, "popupContent" : "Archaeological Site of Delphi"} },
+{id: "af6365dfc5512cec743aada63ce7f96e",
+              type: "LeafletMarker",
+              value: { "latitude" : 39.7217, "longitude" : 21.6306, "popupContent" : "Meteora"} },
+{id: "a4eaa5f2a2bb60c7f06eb63fc2c31cf5",
+              type: "LeafletMarker",
+              value: { "latitude" : 41.8586767, "longitude" : 12.4767338, "popupContent" : "Historic Centre of Rome, the Properties of the Holy See in that City Enjoying Extraterritorial Rights and San Paolo Fuori le Mura "} },
+{id: "fde15d679b60fcd8a43e07670e7585ed",
+              type: "LeafletMarker",
+              value: { "latitude" : 41.902916, "longitude" : 12.453389, "popupContent" : "Vatican City"} },
+{id: "7bafe133e3fee0f77134c1d9d1630d81",
+              type: "LeafletMarker",
+              value: { "latitude" : 47.4962048, "longitude" : 19.0395666, "popupContent" : "Budapest, including the Banks of the Danube, the Buda Castle Quarter and Andrássy Avenue"} },
+{id: "ff04440e82b47f9753793d758986ed11",
+              type: "LeafletMarker",
+              value: { "latitude" : 41.8586767, "longitude" : 12.4767338, "popupContent" : "Historic Centre of Rome, the Properties of the Holy See in that City Enjoying Extraterritorial Rights and San Paolo Fuori le Mura "} },
+{id: "5f0106da76cc9bcf33ba411bfdeb3ed3",
+              type: "LeafletMarker",
+              value: { "latitude" : 43.7695604, "longitude" : 11.2558136, "popupContent" : "Historic Centre of Florence"} },
+{id: "2a66bca8a5caf91d82da1facac909d59",
+              type: "LeafletMarker",
+              value: { "latitude" : 43.7232252, "longitude" : 10.3947238, "popupContent" : "Piazza del Duomo, Pisa"} },
+{id: "deef8ee829d7fce2674c08b5cc4bb072",
+              type: "LeafletMarker",
+              value: { "latitude" : 40.860039, "longitude" : 14.2632918, "popupContent" : "Historic Centre of Naples"} },
+{id: "d32cff591ed907a9f166378f08bb0001",
+              type: "LeafletMarker",
+              value: { "latitude" : 40.8059222, "longitude" : 14.3494722, "popupContent" : "Archaeological Areas of Pompei, Herculaneum and Torre Annunziata"} },
+{id: "b2981b5c54009bbeba3b8821745e709b",
+              type: "LeafletMarker",
+              value: { "latitude" : 40.6333389, "longitude" : 14.6028963, "popupContent" : "Costiera Amalfitana"} },
+{id: "11e3d3ce2bc79f5946ffe0d6d772ce3e",
+              type: "LeafletMarker",
+              value: { "latitude" : 41.9428008, "longitude" : 12.774399, "popupContent" : "Villa Adriana (Tivoli)"} },
+{id: "5a75ef2c12b1ca61b71e1819688720ec",
+              type: "LeafletMarker",
+              value: { "latitude" : 41.9633123, "longitude" : 12.7958058, "popupContent" : "Villa d'Este, Tivoli"} },
+{id: "c178ea536447c3a2800f2186ebf924f4",
+              type: "LeafletMarker",
+              value: { "latitude" : 34.8892908, "longitude" : 135.8076783, "popupContent" : "Historic Monuments of Ancient Kyoto (Kyoto, Uji and Otsu Cities)"} },
+{id: "58f65a52d3d4ab213e45272599a31b9e",
+              type: "LeafletMarker",
+              value: { "latitude" : 35.3606, "longitude" : 138.7274, "popupContent" : "Fujisan, sacred place and source of artistic inspiration"} },
+{id: "591581af1ae7a2cca5a03b9d4a2effdb",
+              type: "LeafletMarker",
+              value: { "latitude" : 20.6842849, "longitude" : -88.5677826, "popupContent" : "Pre-Hispanic City of Chichen-Itza"} },
+{id: "9f47843e14ea4c6675302469f03785bf",
+              type: "LeafletMarker",
+              value: { "latitude" : 34.0630813, "longitude" : -4.9768757, "popupContent" : "Medina of Fez"} },
+{id: "dfb8bd399cb13f1e50f1ede6f0ae8ed1",
+              type: "LeafletMarker",
+              value: { "latitude" : 31.6317937, "longitude" : -7.9892605, "popupContent" : "Medina of Marrakesh"} },
+{id: "fe75d209f7615a04ffd07edae99ffc91",
+              type: "LeafletMarker",
+              value: { "latitude" : 31.047043, "longitude" : -7.1318996, "popupContent" : "Ksar of Ait-Ben-Haddou"} },
+{id: "819f5c2f47620e57ad5a4c96764e7dd4",
+              type: "LeafletMarker",
+              value: { "latitude" : 33.893054, "longitude" : -5.5654054, "popupContent" : "Historic City of Meknes"} },
+{id: "1e4b230e474127a56ae055238570a4c0",
+              type: "LeafletMarker",
+              value: { "latitude" : 34.0708021, "longitude" : -5.5526793, "popupContent" : "Archaeological Site of Volubilis"} },
+{id: "70961a15f010a4851ef913dc7fa56aeb",
+              type: "LeafletMarker",
+              value: { "latitude" : 31.514159, "longitude" : -9.7685657, "popupContent" : "Medina of Essaouira (formerly Mogador)"} },
+{id: "dcb63b5b2ed74f1e1605fe38b652691c",
+              type: "LeafletMarker",
+              value: { "latitude" : 34.0259072, "longitude" : -6.8364399, "popupContent" : "Rabat, Modern Capital and Historic City: a Shared Heritage"} },
+{id: "b8045c93eb4ef4c967ac9c9058af17c3",
+              type: "LeafletMarker",
+              value: { "latitude" : 50.0605443, "longitude" : 19.9417183, "popupContent" : "Historic Centre of Kraków"} },
+{id: "8316d0df8e3466b8d96b44db1c99d109",
+              type: "LeafletMarker",
+              value: { "latitude" : 49.9689861, "longitude" : 20.4176528, "popupContent" : "Wieliczka and Bochnia Royal Salt Mines"} },
+{id: "42c38a2ae4d858606a06d470cb7a4986",
+              type: "LeafletMarker",
+              value: { "latitude" : 50.0346, "longitude" : 19.1758, "popupContent" : "Auschwitz Birkenau "} },
+{id: "7a6592fba9fe5c6c86eedb6dad1f0574",
+              type: "LeafletMarker",
+              value: { "latitude" : 52.2477331, "longitude" : 21.0136079, "popupContent" : "Historic Centre of Warsaw"} },
+{id: "0f5273cf3649ea890d43155f4abd52ea",
+              type: "LeafletMarker",
+              value: { "latitude" : 49.8600889, "longitude" : 19.6721211, "popupContent" : "Kalwaria Zebrzydowska: the Mannerist Architectural and Park Landscape Complex and Pilgrimage Park"} },
+{id: "542132e0a8044543700be9507ea6bbdf",
+              type: "LeafletMarker",
+              value: { "latitude" : 46.135187, "longitude" : 24.5213084, "popupContent" : "Villages with Fortified Churches in Transylvania "} },
+{id: "aa1e52bc712e66ee5800f0c37071a12d",
+              type: "LeafletMarker",
+              value: { "latitude" : 46.219767, "longitude" : 24.7919154, "popupContent" : "Historic Centre of Sighişoara"} },
+{id: "ccffd73e38d05a9084b7ae27710b5f71",
+              type: "LeafletMarker",
+              value: { "latitude" : 13.8033167, "longitude" : -61.0669688, "popupContent" : "Pitons Management Area"} },
+{id: "887c31e74a9cc1942960307fb10d4058",
+              type: "LeafletMarker",
+              value: { "latitude" : 37.1760783, "longitude" : -3.5881413, "popupContent" : "Alhambra, Generalife and Albayzín, Granada "} },
+{id: "6f90f235f0f7244b65b30f4d6dba862e",
+              type: "LeafletMarker",
+              value: { "latitude" : 37.8791918, "longitude" : -4.7797161, "popupContent" : "Historic Centre of Cordoba "} },
+{id: "e2890586775eb871f7d75b6ea5ea9280",
+              type: "LeafletMarker",
+              value: { "latitude" : 40.5890408, "longitude" : -4.1477268, "popupContent" : "Monastery and Site of the Escurial, Madrid"} },
+{id: "b101603b9310421afab83b9e6e061bac",
+              type: "LeafletMarker",
+              value: { "latitude" : 41.3917, "longitude" : 2.164918, "popupContent" : "Works of Antoni Gaudí "} },
+{id: "31dfdf2b5cec583a36869dce0eaa4a0d",
+              type: "LeafletMarker",
+              value: { "latitude" : 43.377452, "longitude" : -4.122347, "popupContent" : "Cave of Altamira and Paleolithic Cave Art of Northern Spain"} },
+{id: "9839231b36e5e574277e9b11a49b8a84",
+              type: "LeafletMarker",
+              value: { "latitude" : 40.9479909, "longitude" : -4.1177913, "popupContent" : "Old Town of Segovia and its Aqueduct"} },
+{id: "1efc13e676ad86dab71569057575ce67",
+              type: "LeafletMarker",
+              value: { "latitude" : 42.8805962, "longitude" : -8.5446412, "popupContent" : "Santiago de Compostela (Old Town)"} },
+{id: "41d8e2214326df914afc1b69ea9b179e",
+              type: "LeafletMarker",
+              value: { "latitude" : 39.8628, "longitude" : -4.0273, "popupContent" : "Historic City of Toledo"} },
+{id: "5408350ffac6e5ad6f73bc1407fccb89",
+              type: "LeafletMarker",
+              value: { "latitude" : 37.3849027, "longitude" : -5.9930945, "popupContent" : "Cathedral, Alcázar and Archivo de Indias in Seville"} },
+{id: "d93b35d743e1bb2d1b5ba08f58c8eb24",
+              type: "LeafletMarker",
+              value: { "latitude" : 41.3875752, "longitude" : 2.1753128, "popupContent" : "Palau de la Música Catalana and Hospital de Sant Pau, Barcelona"} },
+{id: "e677ff47515dce2d6bedeb5c2c744ec5",
+              type: "LeafletMarker",
+              value: { "latitude" : 28.4874009, "longitude" : -16.3159061, "popupContent" : "San Cristóbal de La Laguna"} },
+{id: "f5236aa0960e309b7b265956027ec502",
+              type: "LeafletMarker",
+              value: { "latitude" : 28.2723384, "longitude" : -16.642508, "popupContent" : "Teide National Park"} },
+{id: "a69958d5f49b50467caebe21f2730f3a",
+              type: "LeafletMarker",
+              value: { "latitude" : 46.94812, "longitude" : 7.4502755, "popupContent" : "Old City of Berne"} },
+{id: "a2e479593376f4d7127d16f38282c3f8",
+              type: "LeafletMarker",
+              value: { "latitude" : 46.4887031, "longitude" : 8.0530777, "popupContent" : "Swiss Alps Jungfrau-Aletsch"} },
+{id: "276b5f392f3a9f4ec9b86b77c3efcaad",
+              type: "LeafletMarker",
+              value: { "latitude" : 54.7732329, "longitude" : -1.5763921, "popupContent" : "Durham Castle and Cathedral"} },
+{id: "33d61eb32c16c667eaf49e308003b77d",
+              type: "LeafletMarker",
+              value: { "latitude" : 55.2408073, "longitude" : -6.5115554, "popupContent" : "Giant's Causeway and Causeway Coast"} },
+{id: "832fc457696d901bf94bf4cb5a774892",
+              type: "LeafletMarker",
+              value: { "latitude" : 51.4289196, "longitude" : -1.8548908, "popupContent" : "Stonehenge, Avebury and Associated Sites"} },
+{id: "247f176edd157a87c2f751282d992006",
+              type: "LeafletMarker",
+              value: { "latitude" : 51.3811, "longitude" : -2.359, "popupContent" : "City of Bath"} },
+{id: "dc739f30517aee2f5872e2e661ba9408",
+              type: "LeafletMarker",
+              value: { "latitude" : 54.9899, "longitude" : -2.6017, "popupContent" : "Frontiers of the Roman Empire  "} },
+{id: "65eb32bcba7363ba8766740d5c793e02",
+              type: "LeafletMarker",
+              value: { "latitude" : 51.4998221, "longitude" : -0.1266941, "popupContent" : "Palace of Westminster and Westminster Abbey including Saint Margaret’s Church"} },
+{id: "28ca4f2f608a14b4380d08113f5ed31f",
+              type: "LeafletMarker",
+              value: { "latitude" : 51.277883, "longitude" : 1.088522, "popupContent" : "Canterbury Cathedral, St Augustine's Abbey, and St Martin's Church"} },
+{id: "8017479967153c135110b0335a580e2a",
+              type: "LeafletMarker",
+              value: { "latitude" : 51.5081124, "longitude" : -0.0759493, "popupContent" : "Tower of London"} },
+{id: "796c5cb8d4720e39c34bb13e9d55a6a8",
+              type: "LeafletMarker",
+              value: { "latitude" : 55.9549194, "longitude" : -3.1980237, "popupContent" : "Old and New Towns of Edinburgh"} },
+{id: "4b77aae4ca3bdb47b360269edef0f61f",
+              type: "LeafletMarker",
+              value: { "latitude" : 51.4933675, "longitude" : 0.0098214, "popupContent" : "Maritime Greenwich"} },
+{id: "b802ced18553c876646d04da982c3687",
+              type: "LeafletMarker",
+              value: { "latitude" : 50.6214623, "longitude" : -2.2747373, "popupContent" : "Dorset and East Devon Coast"} },
+{id: "e7a7db44029d67ad5d96be1118ef55cd",
+              type: "LeafletMarker",
+              value: { "latitude" : 53.8382, "longitude" : -1.7896, "popupContent" : "Saltaire"} },
+{id: "fcdaa680c45166680fe00a425abe2ddf",
+              type: "LeafletMarker",
+              value: { "latitude" : 51.4787438, "longitude" : -0.295573, "popupContent" : "Royal Botanic Gardens, Kew"} },
+{id: "581d37c028d000f928e9e4a9a26ca43e",
+              type: "LeafletMarker",
+              value: { "latitude" : 56.0006491, "longitude" : -3.3884392, "popupContent" : "The Forth Bridge"} },
+{id: "c815b10552817adc2af98541887f86c5",
+              type: "LeafletMarker",
+              value: { "latitude" : -3.227889, "longitude" : 35.5074556, "popupContent" : "Ngorongoro Conservation Area "} },
+{id: "bb348b6b23c4ccb1f3b56ea077ba81f0",
+              type: "LeafletMarker",
+              value: { "latitude" : -2.3333333, "longitude" : 34.8333333, "popupContent" : "Serengeti National Park"} },
+{id: "6865a8795045ff5489ca3f129b4c6602",
+              type: "LeafletMarker",
+              value: { "latitude" : -3.0674247, "longitude" : 37.3556273, "popupContent" : "Kilimanjaro National Park"} },
+{id: "6c8bd474fd3c4cc92a84ff4748969fe4",
+              type: "LeafletMarker",
+              value: { "latitude" : -6.162222, "longitude" : 39.1920735, "popupContent" : "Stone Town of Zanzibar"} },
+{id: "c6fa10a33e3630774889109539e29cbd",
+              type: "LeafletMarker",
+              value: { "latitude" : 44.427963, "longitude" : -110.588455, "popupContent" : "Yellowstone National Park"} },
+{id: "5a0f447457caba8ce5096d0e04b0eb3a",
+              type: "LeafletMarker",
+              value: { "latitude" : 25.745929, "longitude" : -80.5549561, "popupContent" : "Everglades National Park"} },
+{id: "43c66643e144c6e2008abd97662ae8a1",
+              type: "LeafletMarker",
+              value: { "latitude" : 36.1069258, "longitude" : -112.1129484, "popupContent" : "Grand Canyon National Park"} },
+{id: "36593c3406c9c17bd5527d4e239fda99",
+              type: "LeafletMarker",
+              value: { "latitude" : 39.9488737, "longitude" : -75.1500233, "popupContent" : "Independence Hall"} },
+{id: "8a63229fbd8865a0ce31cd76b11a93e1",
+              type: "LeafletMarker",
+              value: { "latitude" : 61.7104448, "longitude" : -142.9856804, "popupContent" : "Kluane / Wrangell-St. Elias / Glacier Bay / Tatshenshini-Alsek   "} },
+{id: "f758b9ce4175161f01d2ca775715011b",
+              type: "LeafletMarker",
+              value: { "latitude" : 47.8021067, "longitude" : -123.6043524, "popupContent" : "Olympic National Park"} },
+{id: "864ce4b80c8cd4aad1c37893839222ff",
+              type: "LeafletMarker",
+              value: { "latitude" : 35.6130503, "longitude" : -83.5531537, "popupContent" : "Great Smoky Mountains National Park"} },
+{id: "b7f335274a9d818773da6dc4e2861eb3",
+              type: "LeafletMarker",
+              value: { "latitude" : 18.4686841, "longitude" : -66.1207495, "popupContent" : "La Fortaleza and San Juan National Historic Site in Puerto Rico"} },
+{id: "fa940dbda3f8f2d84b0139f3f4b54a39",
+              type: "LeafletMarker",
+              value: { "latitude" : 40.6892494, "longitude" : -74.0445004, "popupContent" : "Statue of Liberty"} },
+{id: "08944f2683752e9f577c6130c31c31e2",
+              type: "LeafletMarker",
+              value: { "latitude" : 37.8651011, "longitude" : -119.5383294, "popupContent" : "Yosemite National Park "} },
+{id: "fce9dc120bf101d0684c168edc2e0ed8",
+              type: "LeafletMarker",
+              value: { "latitude" : 19.4193697, "longitude" : -155.2884969, "popupContent" : "Hawaii Volcanoes National Park "} },
+{id: "4197729fbc0d571055304b6f62f4866c",
+              type: "LeafletMarker",
+              value: { "latitude" : 29.3603996, "longitude" : -98.4791927, "popupContent" : "San Antonio Missions"} },
+];
+
+    // Override the map div id if specified, apply default CSS
+    var defaultMapElId = "leaflet-map-836cfd36192b4c9d2c338d0e9d2b369a";
+   var defaultMapElStyle = "height:500px; margin-top:0px; margin-bottom:0px";
+    var mapEl = document.getElementById(defaultMapElId);
+    if('divId' in tagInputArg){
+        mapEl.id = tagInputArg['divId'];
+    }
+    var defaultMapCssEl = document.createElement("style");
+    defaultMapCssEl.innerHTML = 
+        "#" + defaultMapElId + "{" + defaultMapElStyle + "}";
+    document.head.appendChild(defaultMapCssEl);
+
+    var newWindowImgSrcBase64 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wUVFzAHq2j99AAAAV9JREFUSMdjYKAxYCRHk5ubG9+1a9fm/v//H6cadnb2G/fu3atlIceC379/c3z9+jUEn5q/f/8eYWBgYECxQE5OroqA2Y8ePXq0hJWV9Qc3N/caZB8wMjJKff361QpvEAkKCv4nYMGh9+/f26MLamhoyLx9+3b/nz9/VJCC6MiLFy9sWXCE3xlGRsZvWKQu4DOciYnpCzc396HPnz97weRxWRD/8OHDa4TiAt1wfn5+z79//zoxMDDALWAiN/lhM/zevXtH0NUx0dJwsiwgxXCccUCJ4dzc3DP+//+/gZ2d/duLFy9Is+Djx4+rCbn82rVrrxgYGF6RFUR8fHyZbGxsD7AZLiEhUSAiIrJSUlIyjOw4uHnz5gVHR0d1bC7/8+eP5d+/f8P+/PmjS1Ekr1ix4hcp6ploXVwPfQuwJlMmJiYBLS0tIVIMev36NRvRFnz48OHohw8fhkYQjQKCAAChiL6Pj/LM2QAAAABJRU5ErkJggg==";
+
+// Actual mapping section; Specify a function to be called later that 
+// assembles the correct JS components based on what the user specified in the 
+// tag input arg, the block section of features, etc. Actually creates the map
+// that is visible on the page
+
+    function _getCenter(){
+        var defaultCenter = [0,0];
+        if("center" in tagInputArg){
+            return tagInputArg.center;
+        } else {
+            return defaultCenter;
+        }
+    }
+
+    function _getZoom(){
+        var defaultZoom = 1;
+        if("zoom" in tagInputArg){
+            return tagInputArg.zoom
+        } else {
+            return defaultZoom;
+        }
+    }
+
+    function _getProviderBasemap(){
+        var defaultProviderBasemap = "OpenStreetMap.Mapnik";
+        if("providerBasemap" in tagInputArg){
+            return tagInputArg.providerBasemap;
+        } else {
+            return defaultProviderBasemap;
+        }
+    }
+
+
+    function _addMarkerToMap(leafletItem, map){
+        var m = leafletItem.value;
+        var result = L.marker([m.latitude, m.longitude]).addTo(map);
+        var potentialPopup = "";
+	
+	//custom code
+	result.on('mouseover',function(ev) {
+	result.openPopup();
+	});
+	result.on('mouseout',function(ev) {
+        result.closePopup();
+	});
+        
+	//end custom code
+
+	if('popupContent' in m){
+                potentialPopup += m.popupContent;}
+        if('href' in m){
+            potentialPopup += '<a href="' + m.href + '">' + 
+                '<img src="' + newWindowImgSrcBase64 + '"></img></a>';}
+        if(potentialPopup){
+            result.bindPopup(potentialPopup);}
+        if(!('center' in tagInputArg)){
+            // If the user didn't specify a center, infer from marker
+            map.panTo(new L.LatLng(m.latitude, m.longitude));
+        }
+    }
+
+    function _onEachFeature(feature, layer){
+        var potentialPopup = ""
+        if(feature.properties && feature.properties.popupContent){
+            potentialPopup += feature.properties.popupContent;
+        }
+        if(feature.properties && feature.properties.href){
+            potentialPopup += 
+                '<a href="' + feature.properties.href + '">' + 
+                    '<img src="' + newWindowImgSrcBase64 + '"></img></a>';}
+        if(potentialPopup){
+            layer.bindPopup(potentialPopup);
+        }
+    }
+
+    function _addGeoJSONToMap(leafletItem, map){
+        if(typeof leafletItem.value === "string"){
+            fetch(leafletItem.value).then((resp) => {
+                return resp.json();
+            }).then((data) => {
+                leafletItem.value = data;
+                _addGeoJSONObjToMap(leafletItem, map);
+            }).catch((err) => {
+                console.log("Encountered err w/ geojson, attempting to fix..");
+                console.log(err);
+                _addGeoJSONObjToMap(leafletItem, map);
+            });
+        } else {
+            _addGeoJSONObjToMap(leafletItem, map);
+        }
+     }
+
+    function _addGeoJSONObjToMap(leafletItem, map){
+         var geojson = L.geoJSON(leafletItem.value, { 
+            onEachFeature: _onEachFeature 
+        });
+        layers = geojson.getLayers();
+        for(var i=0; i<layers.length; i++){
+            try{
+                var geom = layers[i].feature.geometry;
+                if(!('center' in tagInputArg)){
+                    // If the user didn't specify a center, infer from geojson
+                    //console.log("panning to " + geom.coordinates);
+                    map.panTo(new L.LatLng(geom.coordinates[1],
+                                           geom.coordinates[0]));
+                }
+            } catch(e){}
+        }
+       
+        geojson.addTo(map);
+       
+    }
+
+    function _processLeafletItem(leafletItem, map){
+        switch(leafletItem.type){
+            case "LeafletMarker":
+                _addMarkerToMap(leafletItem, map);
+                break;
+            case "LeafletGeoJSON":
+                _addGeoJSONToMap(leafletItem, map);
+                break;
+            case undefined:
+                break; 
+            default:
+                console.log("Couldn't add item " + leafletItem.id);
+                break;
+        }
+    }
+
+//The actual section that is called that creates a map
+    function createMap(){
+        console.log("Creating map 836cfd36192b4c9d2c338d0e9d2b369a with these args:");
+        console.log(tagInputArg);
+
+        //Initialize Map with the correct input arguments
+        var map = L.map(mapEl.id, 
+            {worldCopyJump: true, zoomSnap: 0.25}).setView(_getCenter(), _getZoom());
+        L.tileLayer.provider(_getProviderBasemap()).addTo(map);
+        if("esriBasemap" in tagInputArg){
+            L.esri.basemapLayer(tagInputArg.esriBasemap).addTo(map);
+        }
+	
+
+
+        //process each Leaflet Item passed in between the block tag middle
+        for(var i=0; i<blockLeafletItems.length; i++){
+            var leafletItem = blockLeafletItems[i];
+            console.log("Adding leaflet item " + leafletItem.id + ":");
+            console.log(leafletItem);
+            _processLeafletItem(leafletItem, map);
+        }
+    }
+
+// Load the correct JS libraries/CSS by adding to head: 
+// When ready, call createMap() to create the map on the page
+
+    function _createMap(){
+        // helper function to draw the map only when everything is loaded,
+        // safeguards against multiple calls to window.onload
+        var prevOnLoad;
+        if(window.onload){
+            prevOnLoad = window.onload;
+        }
+        window.onload = () => {
+            createMap();
+            if(prevOnLoad){
+                prevOnLoad();
+            }
+        }
+    }
+
+    var leafletCssId = "leaflet-css-head";
+    var leafletJsId = "leaflet-js-head";
+    var esriLeafletJsId = "esri-leaflet-js-head";
+    var leafletProvidersJsId = "leaflet-providers-js-head";
+
+    // Add the leaflet CSS first, don't worry about when it loads
+    var leafletCssEl = document.createElement("link");
+    leafletCssEl.id = leafletCssId;
+    leafletCssEl.rel = "stylesheet";
+    leafletCssEl.href = leafletCdn + "leaflet.css";
+    if(!document.getElementById(leafletCssEl.id)){
+        document.head.appendChild(leafletCssEl);
+    }
+
+    function addToHeadIfNotLoaded(el) {
+        //Add the el to the head if it doesn't exist already. If it does,
+        //everything we need is already loaded, so draw the map
+        if(!document.getElementById(el.id)){
+            document.head.appendChild(el);
+        } else {
+            _createMap();
+        }
+    }
+
+    // Load the main leaflet.js code, wait for it to load
+    var leafletJsEl = document.createElement("script");
+    leafletJsEl.id = leafletJsId;
+    leafletJsEl.onload = () => {
+        //After loaded, load the esri-leaflet.js code, wait for it to load
+        var esriEl = document.createElement("script");
+        esriEl.id = esriLeafletJsId;
+        esriEl.onload = () => {
+            //After loaded, add the inline leaflet-providers <script>
+            provEl = document.createElement("script");
+            provEl.id = leafletProvidersJsId;
+            provEl.innerHTML = `//Taken from https://github.com/leaflet-extras/leaflet-providers
+(function (root, factory) {
+	if (typeof define === 'function' && define.amd) {
+		// AMD. Register as an anonymous module.
+		define(['leaflet'], factory);
+	} else if (typeof modules === 'object' && module.exports) {
+		// define a Common JS module that relies on 'leaflet'
+		module.exports = factory(require('leaflet'));
+	} else {
+		// Assume Leaflet is loaded into global object L already
+		factory(L);
+	}
+}(this, function (L) {
+	'use strict';
+
+	L.TileLayer.Provider = L.TileLayer.extend({
+		initialize: function (arg, options) {
+			var providers = L.TileLayer.Provider.providers;
+
+			var parts = arg.split('.');
+
+			var providerName = parts[0];
+			var variantName = parts[1];
+
+			if (!providers[providerName]) {
+				throw 'No such provider (' + providerName + ')';
+			}
+
+			var provider = {
+				url: providers[providerName].url,
+				options: providers[providerName].options
+			};
+
+			// overwrite values in provider from variant.
+			if (variantName && 'variants' in providers[providerName]) {
+				if (!(variantName in providers[providerName].variants)) {
+					throw 'No such variant of ' + providerName + ' (' + variantName + ')';
+				}
+				var variant = providers[providerName].variants[variantName];
+				var variantOptions;
+				if (typeof variant === 'string') {
+					variantOptions = {
+						variant: variant
+					};
+				} else {
+					variantOptions = variant.options;
+				}
+				provider = {
+					url: variant.url || provider.url,
+					options: L.Util.extend({}, provider.options, variantOptions)
+				};
+			}
+
+			// replace attribution placeholders with their values from toplevel provider attribution,
+			// recursively
+			var attributionReplacer = function (attr) {
+				if (attr.indexOf('{attribution.') === -1) {
+					return attr;
+				}
+				return attr.replace(/\{attribution.(\w*)\}/g,
+					function (match, attributionName) {
+						return attributionReplacer(providers[attributionName].options.attribution);
+					}
+				);
+			};
+			provider.options.attribution = attributionReplacer(provider.options.attribution);
+
+			// Compute final options combining provider options with any user overrides
+			var layerOpts = L.Util.extend({}, provider.options, options);
+			L.TileLayer.prototype.initialize.call(this, provider.url, layerOpts);
+		}
+	});
+
+	/**
+	 * Definition of providers.
+	 * see http://leafletjs.com/reference.html#tilelayer for options in the options map.
+	 */
+
+	L.TileLayer.Provider.providers = {
+		OpenStreetMap: {
+			url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+			options: {
+				maxZoom: 19,
+				attribution:
+					'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+			},
+			variants: {
+				Mapnik: {},
+				DE: {
+					url: 'https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png',
+					options: {
+						maxZoom: 18
+					}
+				},
+				CH: {
+					url: 'https://tile.osm.ch/switzerland/{z}/{x}/{y}.png',
+					options: {
+						maxZoom: 18,
+						bounds: [[45, 5], [48, 11]]
+					}
+				},
+				France: {
+					url: 'https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png',
+					options: {
+						maxZoom: 20,
+						attribution: '&copy; Openstreetmap France | {attribution.OpenStreetMap}'
+					}
+				},
+				HOT: {
+					url: 'https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
+					options: {
+						attribution:
+							'{attribution.OpenStreetMap}, ' +
+							'Tiles style by <a href="https://www.hotosm.org/" target="_blank">Humanitarian OpenStreetMap Team</a> ' +
+							'hosted by <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap France</a>'
+					}
+				},
+				BZH: {
+					url: 'https://tile.openstreetmap.bzh/br/{z}/{x}/{y}.png',
+					options: {
+						attribution: '{attribution.OpenStreetMap}, Tiles courtesy of <a href="http://www.openstreetmap.bzh/" target="_blank">Breton OpenStreetMap Team</a>',
+						bounds: [[46.2, -5.5], [50, 0.7]]
+					}
+				}
+			}
+		},
+		OpenSeaMap: {
+			url: 'https://tiles.openseamap.org/seamark/{z}/{x}/{y}.png',
+			options: {
+				attribution: 'Map data: &copy; <a href="http://www.openseamap.org">OpenSeaMap</a> contributors'
+			}
+		},
+		OpenPtMap: {
+			url: 'http://openptmap.org/tiles/{z}/{x}/{y}.png',
+			options: {
+				maxZoom: 17,
+				attribution: 'Map data: &copy; <a href="http://www.openptmap.org">OpenPtMap</a> contributors'
+			}
+		},
+		OpenTopoMap: {
+			url: 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
+			options: {
+				maxZoom: 17,
+				attribution: 'Map data: {attribution.OpenStreetMap}, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+			}
+		},
+		OpenRailwayMap: {
+			url: 'https://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png',
+			options: {
+				maxZoom: 19,
+				attribution: 'Map data: {attribution.OpenStreetMap} | Map style: &copy; <a href="https://www.OpenRailwayMap.org">OpenRailwayMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+			}
+		},
+		OpenFireMap: {
+			url: 'http://openfiremap.org/hytiles/{z}/{x}/{y}.png',
+			options: {
+				maxZoom: 19,
+				attribution: 'Map data: {attribution.OpenStreetMap} | Map style: &copy; <a href="http://www.openfiremap.org">OpenFireMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+			}
+		},
+		SafeCast: {
+			url: 'https://s3.amazonaws.com/te512.safecast.org/{z}/{x}/{y}.png',
+			options: {
+				maxZoom: 16,
+				attribution: 'Map data: {attribution.OpenStreetMap} | Map style: &copy; <a href="https://blog.safecast.org/about/">SafeCast</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+			}
+		},
+		Thunderforest: {
+			url: 'https://{s}.tile.thunderforest.com/{variant}/{z}/{x}/{y}.png?apikey={apikey}',
+			options: {
+				attribution:
+					'&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, {attribution.OpenStreetMap}',
+				variant: 'cycle',
+				apikey: '<insert your api key here>',
+				maxZoom: 22
+			},
+			variants: {
+				OpenCycleMap: 'cycle',
+				Transport: {
+					options: {
+						variant: 'transport'
+					}
+				},
+				TransportDark: {
+					options: {
+						variant: 'transport-dark'
+					}
+				},
+				SpinalMap: {
+					options: {
+						variant: 'spinal-map'
+					}
+				},
+				Landscape: 'landscape',
+				Outdoors: 'outdoors',
+				Pioneer: 'pioneer'
+			}
+		},
+		OpenMapSurfer: {
+			url: 'https://maps.heigit.org/openmapsurfer/tiles/{variant}/webmercator/{z}/{x}/{y}.png',
+			options: {
+				maxZoom: 19,
+				variant: 'roads',
+				attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data '
+			},
+			variants: {
+				Roads: {
+					options: {
+						variant: 'roads',
+						attribution: '{attribution.OpenMapSurfer}{attribution.OpenStreetMap}'
+					}
+				},
+				Hybrid: {
+					options: {
+						variant: 'hybrid',
+						attribution: '{attribution.OpenMapSurfer}{attribution.OpenStreetMap}'
+					}
+				},
+				AdminBounds: {
+					options: {
+						variant: 'adminb',
+						maxZoom: 18,
+						attribution: '{attribution.OpenMapSurfer}{attribution.OpenStreetMap}'
+					}
+				},
+				ContourLines: {
+					options: {
+						variant: 'asterc',
+						maxZoom: 18,
+						minZoom: 13,
+						attribution: '{attribution.OpenMapSurfer} <a href="https://lpdaac.usgs.gov/products/aster_policies">ASTER GDEM</a>'
+					}
+				},
+				Hillshade: {
+					options: {
+						variant: 'asterh',
+						maxZoom: 18,
+						attribution: '{attribution.OpenMapSurfer} <a href="https://lpdaac.usgs.gov/products/aster_policies">ASTER GDEM</a>, <a href="http://srtm.csi.cgiar.org/">SRTM</a>'
+					}
+				},
+				ElementsAtRisk: {
+					options: {
+						variant: 'elements_at_risk',
+						attribution: '{attribution.OpenMapSurfer}{attribution.OpenStreetMap}'
+					}
+				}
+			}
+		},
+		Hydda: {
+			url: 'https://{s}.tile.openstreetmap.se/hydda/{variant}/{z}/{x}/{y}.png',
+			options: {
+				maxZoom: 18,
+				variant: 'full',
+				attribution: 'Tiles courtesy of <a href="http://openstreetmap.se/" target="_blank">OpenStreetMap Sweden</a> &mdash; Map data {attribution.OpenStreetMap}'
+			},
+			variants: {
+				Full: 'full',
+				Base: 'base',
+				RoadsAndLabels: 'roads_and_labels'
+			}
+		},
+		MapBox: {
+			url: 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}{r}.png?access_token={accessToken}',
+			options: {
+				attribution:
+					'<a href="https://www.mapbox.com/about/maps/" target="_blank">&copy; Mapbox</a> ' +
+					'{attribution.OpenStreetMap} ' +
+					'<a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a>',
+				subdomains: 'abcd',
+				id: 'mapbox.streets',
+				accessToken: '<insert your access token here>',
+			}
+		},
+		Stamen: {
+			url: 'https://stamen-tiles-{s}.a.ssl.fastly.net/{variant}/{z}/{x}/{y}{r}.{ext}',
+			options: {
+				attribution:
+					'Map tiles by <a href="http://stamen.com">Stamen Design</a>, ' +
+					'<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; ' +
+					'Map data {attribution.OpenStreetMap}',
+				subdomains: 'abcd',
+				minZoom: 0,
+				maxZoom: 20,
+				variant: 'toner',
+				ext: 'png'
+			},
+			variants: {
+				Toner: 'toner',
+				TonerBackground: 'toner-background',
+				TonerHybrid: 'toner-hybrid',
+				TonerLines: 'toner-lines',
+				TonerLabels: 'toner-labels',
+				TonerLite: 'toner-lite',
+				Watercolor: {
+					url: 'https://stamen-tiles-{s}.a.ssl.fastly.net/{variant}/{z}/{x}/{y}.{ext}',
+					options: {
+						variant: 'watercolor',
+						ext: 'jpg',
+						minZoom: 1,
+						maxZoom: 16
+					}
+				},
+				Terrain: {
+					options: {
+						variant: 'terrain',
+						minZoom: 0,
+						maxZoom: 18
+					}
+				},
+				TerrainBackground: {
+					options: {
+						variant: 'terrain-background',
+						minZoom: 0,
+						maxZoom: 18
+					}
+				},
+				TopOSMRelief: {
+					url: 'https://stamen-tiles-{s}.a.ssl.fastly.net/{variant}/{z}/{x}/{y}.{ext}',
+					options: {
+						variant: 'toposm-color-relief',
+						ext: 'jpg',
+						bounds: [[22, -132], [51, -56]]
+					}
+				},
+				TopOSMFeatures: {
+					options: {
+						variant: 'toposm-features',
+						bounds: [[22, -132], [51, -56]],
+						opacity: 0.9
+					}
+				}
+			}
+		},
+		Esri: {
+			url: 'https://server.arcgisonline.com/ArcGIS/rest/services/{variant}/MapServer/tile/{z}/{y}/{x}',
+			options: {
+				variant: 'World_Street_Map',
+				attribution: 'Tiles &copy; Esri'
+			},
+			variants: {
+				WorldStreetMap: {
+					options: {
+						attribution:
+							'{attribution.Esri} &mdash; ' +
+							'Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+					}
+				},
+				DeLorme: {
+					options: {
+						variant: 'Specialty/DeLorme_World_Base_Map',
+						minZoom: 1,
+						maxZoom: 11,
+						attribution: '{attribution.Esri} &mdash; Copyright: &copy;2012 DeLorme'
+					}
+				},
+				WorldTopoMap: {
+					options: {
+						variant: 'World_Topo_Map',
+						attribution:
+							'{attribution.Esri} &mdash; ' +
+							'Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
+					}
+				},
+				WorldImagery: {
+					options: {
+						variant: 'World_Imagery',
+						attribution:
+							'{attribution.Esri} &mdash; ' +
+							'Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+					}
+				},
+				WorldTerrain: {
+					options: {
+						variant: 'World_Terrain_Base',
+						maxZoom: 13,
+						attribution:
+							'{attribution.Esri} &mdash; ' +
+							'Source: USGS, Esri, TANA, DeLorme, and NPS'
+					}
+				},
+				WorldShadedRelief: {
+					options: {
+						variant: 'World_Shaded_Relief',
+						maxZoom: 13,
+						attribution: '{attribution.Esri} &mdash; Source: Esri'
+					}
+				},
+				WorldPhysical: {
+					options: {
+						variant: 'World_Physical_Map',
+						maxZoom: 8,
+						attribution: '{attribution.Esri} &mdash; Source: US National Park Service'
+					}
+				},
+				OceanBasemap: {
+					options: {
+						variant: 'Ocean_Basemap',
+						maxZoom: 13,
+						attribution: '{attribution.Esri} &mdash; Sources: GEBCO, NOAA, CHS, OSU, UNH, CSUMB, National Geographic, DeLorme, NAVTEQ, and Esri'
+					}
+				},
+				NatGeoWorldMap: {
+					options: {
+						variant: 'NatGeo_World_Map',
+						maxZoom: 16,
+						attribution: '{attribution.Esri} &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC'
+					}
+				},
+				WorldGrayCanvas: {
+					options: {
+						variant: 'Canvas/World_Light_Gray_Base',
+						maxZoom: 16,
+						attribution: '{attribution.Esri} &mdash; Esri, DeLorme, NAVTEQ'
+					}
+				}
+			}
+		},
+		OpenWeatherMap: {
+			url: 'http://{s}.tile.openweathermap.org/map/{variant}/{z}/{x}/{y}.png?appid={apiKey}',
+			options: {
+				maxZoom: 19,
+				attribution: 'Map data &copy; <a href="http://openweathermap.org">OpenWeatherMap</a>',
+				apiKey:'<insert your api key here>',
+				opacity: 0.5
+			},
+			variants: {
+				Clouds: 'clouds',
+				CloudsClassic: 'clouds_cls',
+				Precipitation: 'precipitation',
+				PrecipitationClassic: 'precipitation_cls',
+				Rain: 'rain',
+				RainClassic: 'rain_cls',
+				Pressure: 'pressure',
+				PressureContour: 'pressure_cntr',
+				Wind: 'wind',
+				Temperature: 'temp',
+				Snow: 'snow'
+			}
+		},
+		HERE: {
+			/*
+			 * HERE maps, formerly Nokia maps.
+			 * These basemaps are free, but you need an API key. Please sign up at
+			 * https://developer.here.com/plans
+			 */
+			url:
+				'https://{s}.{base}.maps.api.here.com/maptile/2.1/' +
+				'{type}/{mapID}/{variant}/{z}/{x}/{y}/{size}/{format}?' +
+				'app_id={app_id}&app_code={app_code}&lg={language}',
+			options: {
+				attribution:
+					'Map &copy; 1987-' + new Date().getFullYear() + ' <a href="http://developer.here.com">HERE</a>',
+				subdomains: '1234',
+				mapID: 'newest',
+				'app_id': '<insert your app_id here>',
+				'app_code': '<insert your app_code here>',
+				base: 'base',
+				variant: 'normal.day',
+				maxZoom: 20,
+				type: 'maptile',
+				language: 'eng',
+				format: 'png8',
+				size: '256'
+			},
+			variants: {
+				normalDay: 'normal.day',
+				normalDayCustom: 'normal.day.custom',
+				normalDayGrey: 'normal.day.grey',
+				normalDayMobile: 'normal.day.mobile',
+				normalDayGreyMobile: 'normal.day.grey.mobile',
+				normalDayTransit: 'normal.day.transit',
+				normalDayTransitMobile: 'normal.day.transit.mobile',
+				normalNight: 'normal.night',
+				normalNightMobile: 'normal.night.mobile',
+				normalNightGrey: 'normal.night.grey',
+				normalNightGreyMobile: 'normal.night.grey.mobile',
+				normalNightTransit: 'normal.night.transit',
+				normalNightTransitMobile: 'normal.night.transit.mobile',
+				reducedDay: 'reduced.day',
+				reducedNight: 'reduced.night',
+				basicMap: {
+					options: {
+						type: 'basetile'
+					}
+				},
+				mapLabels: {
+					options: {
+						type: 'labeltile',
+						format: 'png'
+					}
+				},
+				trafficFlow: {
+					options: {
+						base: 'traffic',
+						type: 'flowtile'
+					}
+				},
+				carnavDayGrey: 'carnav.day.grey',
+				hybridDay: {
+					options: {
+						base: 'aerial',
+						variant: 'hybrid.day'
+					}
+				},
+				hybridDayMobile: {
+					options: {
+						base: 'aerial',
+						variant: 'hybrid.day.mobile'
+					}
+				},
+				hybridDayTransit: {
+					options: {
+						base: 'aerial',
+						variant: 'hybrid.day.transit'
+					}
+				},
+				hybridDayGrey: {
+					options: {
+						base: 'aerial',
+						variant: 'hybrid.grey.day'
+					}
+				},
+				pedestrianDay: 'pedestrian.day',
+				pedestrianNight: 'pedestrian.night',
+				satelliteDay: {
+					options: {
+						base: 'aerial',
+						variant: 'satellite.day'
+					}
+				},
+				terrainDay: {
+					options: {
+						base: 'aerial',
+						variant: 'terrain.day'
+					}
+				},
+				terrainDayMobile: {
+					options: {
+						base: 'aerial',
+						variant: 'terrain.day.mobile'
+					}
+				}
+			}
+		},
+		FreeMapSK: {
+			url: 'http://t{s}.freemap.sk/T/{z}/{x}/{y}.jpeg',
+			options: {
+				minZoom: 8,
+				maxZoom: 16,
+				subdomains: '1234',
+				bounds: [[47.204642, 15.996093], [49.830896, 22.576904]],
+				attribution:
+					'{attribution.OpenStreetMap}, vizualization CC-By-SA 2.0 <a href="http://freemap.sk">Freemap.sk</a>'
+			}
+		},
+		MtbMap: {
+			url: 'http://tile.mtbmap.cz/mtbmap_tiles/{z}/{x}/{y}.png',
+			options: {
+				attribution:
+					'{attribution.OpenStreetMap} &amp; USGS'
+			}
+		},
+		CartoDB: {
+			url: 'https://{s}.basemaps.cartocdn.com/{variant}/{z}/{x}/{y}{r}.png',
+			options: {
+				attribution: '{attribution.OpenStreetMap} &copy; <a href="https://carto.com/attributions">CARTO</a>',
+				subdomains: 'abcd',
+				maxZoom: 19,
+				variant: 'light_all'
+			},
+			variants: {
+				Positron: 'light_all',
+				PositronNoLabels: 'light_nolabels',
+				PositronOnlyLabels: 'light_only_labels',
+				DarkMatter: 'dark_all',
+				DarkMatterNoLabels: 'dark_nolabels',
+				DarkMatterOnlyLabels: 'dark_only_labels',
+				Voyager: 'rastertiles/voyager',
+				VoyagerNoLabels: 'rastertiles/voyager_nolabels',
+				VoyagerOnlyLabels: 'rastertiles/voyager_only_labels',
+				VoyagerLabelsUnder: 'rastertiles/voyager_labels_under'
+			}
+		},
+		HikeBike: {
+			url: 'https://tiles.wmflabs.org/{variant}/{z}/{x}/{y}.png',
+			options: {
+				maxZoom: 19,
+				attribution: '{attribution.OpenStreetMap}',
+				variant: 'hikebike'
+			},
+			variants: {
+				HikeBike: {},
+				HillShading: {
+					options: {
+						maxZoom: 15,
+						variant: 'hillshading'
+					}
+				}
+			}
+		},
+		BasemapAT: {
+			url: 'https://maps{s}.wien.gv.at/basemap/{variant}/normal/google3857/{z}/{y}/{x}.{format}',
+			options: {
+				maxZoom: 19,
+				attribution: 'Datenquelle: <a href="https://www.basemap.at">basemap.at</a>',
+				subdomains: ['', '1', '2', '3', '4'],
+				format: 'png',
+				bounds: [[46.358770, 8.782379], [49.037872, 17.189532]],
+				variant: 'geolandbasemap'
+			},
+			variants: {
+				basemap: {
+					options: {
+						maxZoom: 20, // currently only in Vienna
+						variant: 'geolandbasemap'
+					}
+				},
+				grau: 'bmapgrau',
+				overlay: 'bmapoverlay',
+				highdpi: {
+					options: {
+						variant: 'bmaphidpi',
+						format: 'jpeg'
+					}
+				},
+				orthofoto: {
+					options: {
+						maxZoom: 20, // currently only in Vienna
+						variant: 'bmaporthofoto30cm',
+						format: 'jpeg'
+					}
+				}
+			}
+		},
+		nlmaps: {
+			url: 'https://geodata.nationaalgeoregister.nl/tiles/service/wmts/{variant}/EPSG:3857/{z}/{x}/{y}.png',
+			options: {
+				minZoom: 6,
+				maxZoom: 19,
+				bounds: [[50.5, 3.25], [54, 7.6]],
+				attribution: 'Kaartgegevens &copy; <a href="kadaster.nl">Kadaster</a>'
+			},
+			variants: {
+				'standaard': 'brtachtergrondkaart',
+				'pastel': 'brtachtergrondkaartpastel',
+				'grijs': 'brtachtergrondkaartgrijs',
+				'luchtfoto': {
+					'url': 'https://geodata.nationaalgeoregister.nl/luchtfoto/rgb/wmts/1.0.0/2016_ortho25/EPSG:3857/{z}/{x}/{y}.png',
+				}
+			}
+		},
+		NASAGIBS: {
+			url: 'https://map1.vis.earthdata.nasa.gov/wmts-webmerc/{variant}/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}',
+			options: {
+				attribution:
+					'Imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System ' +
+					'(<a href="https://earthdata.nasa.gov">ESDIS</a>) with funding provided by NASA/HQ.',
+				bounds: [[-85.0511287776, -179.999999975], [85.0511287776, 179.999999975]],
+				minZoom: 1,
+				maxZoom: 9,
+				format: 'jpg',
+				time: '',
+				tilematrixset: 'GoogleMapsCompatible_Level'
+			},
+			variants: {
+				ModisTerraTrueColorCR: 'MODIS_Terra_CorrectedReflectance_TrueColor',
+				ModisTerraBands367CR: 'MODIS_Terra_CorrectedReflectance_Bands367',
+				ViirsEarthAtNight2012: {
+					options: {
+						variant: 'VIIRS_CityLights_2012',
+						maxZoom: 8
+					}
+				},
+				ModisTerraLSTDay: {
+					options: {
+						variant: 'MODIS_Terra_Land_Surface_Temp_Day',
+						format: 'png',
+						maxZoom: 7,
+						opacity: 0.75
+					}
+				},
+				ModisTerraSnowCover: {
+					options: {
+						variant: 'MODIS_Terra_Snow_Cover',
+						format: 'png',
+						maxZoom: 8,
+						opacity: 0.75
+					}
+				},
+				ModisTerraAOD: {
+					options: {
+						variant: 'MODIS_Terra_Aerosol',
+						format: 'png',
+						maxZoom: 6,
+						opacity: 0.75
+					}
+				},
+				ModisTerraChlorophyll: {
+					options: {
+						variant: 'MODIS_Terra_Chlorophyll_A',
+						format: 'png',
+						maxZoom: 7,
+						opacity: 0.75
+					}
+				}
+			}
+		},
+		NLS: {
+			// NLS maps are copyright National library of Scotland.
+			// http://maps.nls.uk/projects/api/index.html
+			// Please contact NLS for anything other than non-commercial low volume usage
+			//
+			// Map sources: Ordnance Survey 1:1m to 1:63K, 1920s-1940s
+			//   z0-9  - 1:1m
+			//  z10-11 - quarter inch (1:253440)
+			//  z12-18 - one inch (1:63360)
+			url: 'https://nls-{s}.tileserver.com/nls/{z}/{x}/{y}.jpg',
+			options: {
+				attribution: '<a href="http://geo.nls.uk/maps/">National Library of Scotland Historic Maps</a>',
+				bounds: [[49.6, -12], [61.7, 3]],
+				minZoom: 1,
+				maxZoom: 18,
+				subdomains: '0123',
+			}
+		},
+		JusticeMap: {
+			// Justice Map (http://www.justicemap.org/)
+			// Visualize race and income data for your community, county and country.
+			// Includes tools for data journalists, bloggers and community activists.
+			url: 'http://www.justicemap.org/tile/{size}/{variant}/{z}/{x}/{y}.png',
+			options: {
+				attribution: '<a href="http://www.justicemap.org/terms.php">Justice Map</a>',
+				// one of 'county', 'tract', 'block'
+				size: 'county',
+				// Bounds for USA, including Alaska and Hawaii
+				bounds: [[14, -180], [72, -56]]
+			},
+			variants: {
+				income: 'income',
+				americanIndian: 'indian',
+				asian: 'asian',
+				black: 'black',
+				hispanic: 'hispanic',
+				multi: 'multi',
+				nonWhite: 'nonwhite',
+				white: 'white',
+				plurality: 'plural'
+			}
+		},
+		Wikimedia: {
+			url: 'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png',
+			options: {
+				attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
+				minZoom: 1,
+				maxZoom: 19
+			}
+		},
+		GeoportailFrance: {
+			url: 'https://wxs.ign.fr/{apikey}/geoportail/wmts?REQUEST=GetTile&SERVICE=WMTS&VERSION=1.0.0&STYLE={style}&TILEMATRIXSET=PM&FORMAT={format}&LAYER={variant}&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}',
+			options: {
+				attribution: '<a target="_blank" href="https://www.geoportail.gouv.fr/">Geoportail France</a>',
+				bounds: [[-75, -180], [81, 180]],
+				minZoom: 2,
+				maxZoom: 18,
+				// Get your own geoportail apikey here : http://professionnels.ign.fr/ign/contrats/
+				// NB : 'choisirgeoportail' is a demonstration key that comes with no guarantee
+				apikey: 'choisirgeoportail',
+				format: 'image/jpeg',
+				style : 'normal',
+				variant: 'GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-EXPRESS.STANDARD'
+			},
+			variants: {
+				parcels: {
+					options : {
+						variant: 'CADASTRALPARCELS.PARCELS',
+						maxZoom: 20,
+						style : 'bdparcellaire',
+						format: 'image/png'
+					}
+				},
+				ignMaps: 'GEOGRAPHICALGRIDSYSTEMS.MAPS',
+				maps: 'GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-EXPRESS.STANDARD',
+				orthos: {
+					options: {
+						maxZoom: 19,
+						variant: 'ORTHOIMAGERY.ORTHOPHOTOS'
+					}
+				}
+			}
+		},
+		OneMapSG: {
+			url: 'https://maps-{s}.onemap.sg/v3/{variant}/{z}/{x}/{y}.png',
+			options: {
+				variant: 'Default',
+				minZoom: 11,
+				maxZoom: 18,
+				bounds: [[1.56073, 104.11475], [1.16, 103.502]],
+				attribution: '<img src="https://docs.onemap.sg/maps/images/oneMap64-01.png" style="height:20px;width:20px;"/> New OneMap | Map data &copy; contributors, <a href="http://SLA.gov.sg">Singapore Land Authority</a>'
+			},
+			variants: {
+				Default: 'Default',
+				Night: 'Night',
+				Original: 'Original',
+				Grey: 'Grey',
+				LandLot: 'LandLot'
+			}
+		}
+	};
+
+	L.tileLayer.provider = function (provider, options) {
+		return new L.TileLayer.Provider(provider, options);
+	};
+
+	return L;
+}));
+`;
+            if(!document.getElementById(provEl.id)){
+                 document.head.appendChild(provEl);        
+            }
+            _createMap();
+            }
+        esriEl.src = esriLeafletCdn + "esri-leaflet.js";
+        addToHeadIfNotLoaded(esriEl);
+        };
+    leafletJsEl.src = leafletCdn + "leaflet.js";
+    addToHeadIfNotLoaded(leafletJsEl);
+})();
+</script>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td><b>Austria </b></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Historic Centre of the City of Salzburg</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Palace and Gardens of Schönbrunn</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Wachau Cultural Landscape</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Historic Centre of Vienna</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Barbados </b></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Historic Bridgetown and its Garrison</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Belgium </b></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>La Grand-Place, Brussels</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Belfries of Belgium and France</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Historic Centre of Brugge</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Major Town Houses of the Architect Victor Horta (Brussels)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Bosnia and Herzegovina </b></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Old Bridge Area of the Old City of Mostar</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Canada </b></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Historic District of Old Québec</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>China </b></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>The Great Wall</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Jiuzhaigou Valley Scenic and Historic Interest Area</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Mount Emei Scenic Area, including Leshan Giant Buddha Scenic Area</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Classical Gardens of Suzhou</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Summer Palace, an Imperial Garden in Beijing</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Temple of Heaven: an Imperial Sacrificial Altar in Beijing</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Sichuan Giant Panda Sanctuaries - Wolong, Mt Siguniang and Jiajin  Mountains</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Colombia </b></td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Port, Fortresses and Group of Monuments, Cartagena</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Croatia </b></td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Old City of Dubrovnik</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Czechia </b></td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Historic Centre of Český Krumlov</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Historic Centre of Prague</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Kutná Hora: Historical Town Centre with the Church of St Barbara and the  Cathedral of Our Lady at Sedlec</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>France </b></td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Palace and Park of Versailles</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Arles, Roman and Romanesque Monuments</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Roman Theatre and its Surroundings and the “Triumphal Arch” of  Orange</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Pont du Gard (Roman Aqueduct)</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>Paris, Banks of the Seine</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Historic Centre of Avignon: Papal Palace, Episcopal Ensemble and Avignon  Bridge</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>Canal du Midi</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>Historic Fortified City of Carcassonne</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>Pyrénées - Mont Perdu</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>Jurisdiction of Saint-Emilion</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>The Loire Valley between Sully-sur-Loire and Chalonnes</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>Bordeaux, Port of the Moon</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Germany </b></td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>Aachen Cathedral</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>Cologne Cathedral</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>Museumsinsel (Museum Island), Berlin</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>Zollverein Coal Mine Industrial Complex in Essen</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>Upper Middle Rhine Valley</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>Dresden Elbe Valley Delisted</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Ghana </b></td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>Forts and Castles, Volta, Greater Accra, Central and Western Regions</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>Asante Traditional Buildings</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Greece </b></td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>Acropolis, Athens</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>Archaeological Site of Delphi</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>Meteora</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Holy See </b></td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>Historic Centre of Rome, the Properties of the Holy See in that City  Enjoying Extraterritorial Rights and San Paolo Fuori le Mura</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>Vatican City</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Hungary </b></td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>Budapest, including the Banks of the Danube, the Buda Castle Quarter and  Andrássy Avenue</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Italy </b></td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>Historic Centre of Rome, the Properties of the Holy See in that City  Enjoying Extraterritorial Rights and San Paolo Fuori le Mura</td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td>Historic Centre of Florence</td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td>Piazza del Duomo, Pisa</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>Historic Centre of Naples</td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td>Archaeological Areas of Pompei, Herculaneum and Torre Annunziata</td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td>Costiera Amalfitana</td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td>Villa Adriana (Tivoli)</td>
+    </tr>
+    <tr>
+      <td>58</td>
+      <td>Villa d’Este, Tivoli</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Japan </b></td>
+    </tr>
+    <tr>
+      <td>59</td>
+      <td>Historic Monuments of Ancient Kyoto (Kyoto, Uji and Otsu Cities)</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>Fujisan, sacred place and source of artistic inspiration</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Mexico </b></td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>Pre-Hispanic City of Chichen-Itza</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Morocco </b></td>
+    </tr>
+    <tr>
+      <td>62</td>
+      <td>Medina of Fez</td>
+    </tr>
+    <tr>
+      <td>63</td>
+      <td>Medina of Marrakesh</td>
+    </tr>
+    <tr>
+      <td>64</td>
+      <td>Ksar of Ait-Ben-Haddou</td>
+    </tr>
+    <tr>
+      <td>65</td>
+      <td>Historic City of Meknes</td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td>Archaeological Site of Volubilis</td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td>Medina of Essaouira (formerly Mogador)</td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td>Rabat, Modern Capital and Historic City: a Shared Heritage</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Poland </b></td>
+    </tr>
+    <tr>
+      <td>69</td>
+      <td>Historic Centre of Kraków</td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>Wieliczka and Bochnia Royal Salt Mines</td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>Auschwitz Birkenau</td>
+    </tr>
+    <tr>
+      <td>72</td>
+      <td>Historic Centre of Warsaw</td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td>Kalwaria Zebrzydowska: the Mannerist Architectural and Park Landscape  Complex and Pilgrimage Park</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Romania </b></td>
+    </tr>
+    <tr>
+      <td>74</td>
+      <td>Villages with Fortified Churches in Transylvania</td>
+    </tr>
+    <tr>
+      <td>75</td>
+      <td>Historic Centre of Sighişoara</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Saint Lucia </b></td>
+    </tr>
+    <tr>
+      <td>76</td>
+      <td>Pitons Management Area</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Spain </b></td>
+    </tr>
+    <tr>
+      <td>77</td>
+      <td>Alhambra, Generalife and Albayzín, Granada</td>
+    </tr>
+    <tr>
+      <td>78</td>
+      <td>Historic Centre of Cordoba</td>
+    </tr>
+    <tr>
+      <td>79</td>
+      <td>Monastery and Site of the Escurial, Madrid</td>
+    </tr>
+    <tr>
+      <td>80</td>
+      <td>Works of Antoni Gaudí</td>
+    </tr>
+    <tr>
+      <td>81</td>
+      <td>Cave of Altamira and Paleolithic Cave Art of Northern Spain</td>
+    </tr>
+    <tr>
+      <td>82</td>
+      <td>Old Town of Segovia and its Aqueduct</td>
+    </tr>
+    <tr>
+      <td>83</td>
+      <td>Santiago de Compostela (Old Town)</td>
+    </tr>
+    <tr>
+      <td>84</td>
+      <td>Historic City of Toledo</td>
+    </tr>
+    <tr>
+      <td>85</td>
+      <td>Cathedral, Alcázar and Archivo de Indias in Seville</td>
+    </tr>
+    <tr>
+      <td>86</td>
+      <td>Palau de la Música Catalana and Hospital de Sant Pau, Barcelona</td>
+    </tr>
+    <tr>
+      <td>87</td>
+      <td>San Cristóbal de La Laguna</td>
+    </tr>
+    <tr>
+      <td>88</td>
+      <td>Teide National Park</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>Switzerland </b></td>
+    </tr>
+    <tr>
+      <td>89</td>
+      <td>Old City of Berne</td>
+    </tr>
+    <tr>
+      <td>90</td>
+      <td>Swiss Alps Jungfrau-Aletsch</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>United Kingdom of Great Britain and Northern Ireland  </b></td>
+    </tr>
+    <tr>
+      <td>91</td>
+      <td>Durham Castle and Cathedral</td>
+    </tr>
+    <tr>
+      <td>92</td>
+      <td>Giant’s Causeway and Causeway Coast</td>
+    </tr>
+    <tr>
+      <td>93</td>
+      <td>Stonehenge, Avebury and Associated Sites</td>
+    </tr>
+    <tr>
+      <td>94</td>
+      <td>City of Bath</td>
+    </tr>
+    <tr>
+      <td>95</td>
+      <td>Frontiers of the Roman Empire</td>
+    </tr>
+    <tr>
+      <td>96</td>
+      <td>Palace of Westminster and Westminster Abbey including Saint Margaret’s  Church</td>
+    </tr>
+    <tr>
+      <td>97</td>
+      <td>Canterbury Cathedral, St Augustine’s Abbey, and St Martin’s Church</td>
+    </tr>
+    <tr>
+      <td>98</td>
+      <td>Tower of London</td>
+    </tr>
+    <tr>
+      <td>99</td>
+      <td>Old and New Towns of Edinburgh</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>Maritime Greenwich</td>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>Dorset and East Devon Coast</td>
+    </tr>
+    <tr>
+      <td>102</td>
+      <td>Saltaire</td>
+    </tr>
+    <tr>
+      <td>103</td>
+      <td>Royal Botanic Gardens, Kew</td>
+    </tr>
+    <tr>
+      <td>104</td>
+      <td>The Forth Bridge</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>United Republic of Tanzania </b></td>
+    </tr>
+    <tr>
+      <td>105</td>
+      <td>Ngorongoro Conservation Area</td>
+    </tr>
+    <tr>
+      <td>106</td>
+      <td>Serengeti National Park</td>
+    </tr>
+    <tr>
+      <td>107</td>
+      <td>Kilimanjaro National Park</td>
+    </tr>
+    <tr>
+      <td>108</td>
+      <td>Stone Town of Zanzibar</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><br /> <b>United States of America </b></td>
+    </tr>
+    <tr>
+      <td>109</td>
+      <td>Yellowstone National Park</td>
+    </tr>
+    <tr>
+      <td>110</td>
+      <td>Everglades National Park</td>
+    </tr>
+    <tr>
+      <td>111</td>
+      <td>Grand Canyon National Park</td>
+    </tr>
+    <tr>
+      <td>112</td>
+      <td>Independence Hall</td>
+    </tr>
+    <tr>
+      <td>113</td>
+      <td>Kluane / Wrangell-St. Elias / Glacier Bay /  Tatshenshini-Alsek</td>
+    </tr>
+    <tr>
+      <td>114</td>
+      <td>Olympic National Park</td>
+    </tr>
+    <tr>
+      <td>115</td>
+      <td>Great Smoky Mountains National Park</td>
+    </tr>
+    <tr>
+      <td>116</td>
+      <td>La Fortaleza and San Juan National Historic Site in Puerto Rico</td>
+    </tr>
+    <tr>
+      <td>117</td>
+      <td>Statue of Liberty</td>
+    </tr>
+    <tr>
+      <td>118</td>
+      <td>Yosemite National Park</td>
+    </tr>
+    <tr>
+      <td>119</td>
+      <td>Hawaii Volcanoes National Park</td>
+    </tr>
+    <tr>
+      <td>120</td>
+      <td>San Antonio Missions</td>
+    </tr>
+  </tbody>
+</table>
+
+
+            </article>
+        </main>
+
+        <footer>
+          <p class="copy">
+            <small> &copy; John Lu 2021
+                    | Powered by Jekyll and
+                    <a target="_blank" href="https://github.com/jitinnair1/gradfolio/">Gradfolio</a>.
+                    Last updated on 18 June 2021
+            </small>
+          </p>
+
+        <div class="rounded-social-buttons"><a title=""
+class="social-button email" itemprop="email"
+href="mailto:%6A%6F%68%6E%6C%75@%73%74%61%6E%66%6F%72%64.%65%64%75" target="_blank">
+<i class="far fa-envelope"></i>
+</a><a title=""
+class="social-button linkedin"
+href="https://www.linkedin.com/in/johnminglu" itemprop="sameAs"
+target="_blank">
+<i class="fab fa-linkedin"></i>
+</a><a title=""
+class="social-button github"
+href="https://www.github.com/johnminglu" itemprop="sameAs"
+target="_blank">
+<i class="fab fa-github"></i>
+</a><a title=""
+class="social-button orcid"
+href="https://orcid.org/0000-0002-3972-8854" itemprop="sameAs"
+target="_blank">
+<i class="fab fa-orcid"></i>
+</a></div>
+
+
+        </footer>
+
+        <!-- Google Analytics Tracking code -->
+<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
+<script>
+var galite = galite || {};
+galite.UA = '';
+</script>
+
+    </body>
+
+</html>
