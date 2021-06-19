@@ -12,7 +12,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-paginate'
   gem 'jekyll-email-protect'
-  gem "jekyll-leaflet" 
+  gem 'jekyll-leaflet' 
 end
 
 # gem "rails"
