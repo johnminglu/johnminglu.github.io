@@ -1,62 +1,6 @@
-<!DOCTYPE html>
-<html>
+I"4<p>One of my passions is traveling to see the world as it is. I enjoy meeting new people and learning new things along the way. I particularly enjoy visiting UNESCO World Heritage Sites because of their outstanding cultural or natural importance to the common culture and heritage of humanity.</p>
 
-    <head>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-        <link rel="stylesheet" href="/assets/css/main.css">
-
-        <h1 class="post-headline">John Lu</h1>
-        <h3 class="post-description">MD-PhD Student | Stanford University School of Medicine</h3>
-
-        <div class="links scroll">
-        <a href="/">Home</a>
-        <!--<a href="/projects/">Projects</a>-->
-        <a href="/travel/">Travel</a>
-	<a href="/travel-blog/">Travel Blog</a>
-        <a href="/books/">Books</a>
-	<a href="/art/">Art</a>
-</div>
-
-
-        <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>John Lu | MD-PhD Student Stanford University School of Medicine</title>
-<meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="John Lu" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="MD-PhD Student Stanford University School of Medicine" />
-<meta property="og:description" content="MD-PhD Student Stanford University School of Medicine" />
-<meta property="og:site_name" content="John Lu" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="John Lu" />
-<script type="application/ld+json">
-{"url":"/travel/","description":"MD-PhD Student Stanford University School of Medicine","headline":"John Lu","@type":"WebPage","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff"> 
-
-        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
-        <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
-
-    </head>
-
-    <body>
-        <main>
-            <article>
-                
-    
-
-
-<p>One of my passions is traveling to see the world as it is. I enjoy meeting new people and learning new things along the way. I particularly enjoy visiting UNESCO World Heritage Sites because of their outstanding cultural or natural importance to the common culture and heritage of humanity.</p>
-
-<div id="leaflet-map-a31d1dc8c734885d4fd9dad739cb618b" class="leaflet-map"></div>
+<div id="leaflet-map-9f930d2a3d7a80a258d91222d99a3626" class="leaflet-map"></div>
 <script>(() => {
 // Specify configuration variables, setup any elements and styling
     var leafletCdn = "https://unpkg.com/leaflet@1.6.0/dist/";
@@ -65,370 +9,370 @@
     // Get tag input arguments & inside block object list
     var tagInputArg = {"center" : [40, 0], "zoom" : 1.5,  "providerBasemap": "Stamen.Watercolor"  } ;
     var blockLeafletItems = [
-{id: "c249f21a32b584dad5809e29f158b68a",
+{id: "2d40f1b6b604898e716f7b0d090e4b74",
               type: "LeafletMarker",
               value: { "latitude" : 47.7980953, "longitude" : 13.0501204, "popupContent" : "Historic Centre of the City of Salzburg"} },
-{id: "0a1a910f699d56bc0d8934b8def28c45",
+{id: "bb2c8e9a0fe07b64a23a7cca0e18d1a7",
               type: "LeafletMarker",
               value: { "latitude" : 48.1858124, "longitude" : 16.312764, "popupContent" : "Palace and Gardens of Schönbrunn"} },
-{id: "f3e0d10ee7f836cffd21680893647f36",
+{id: "2715aace293097426d97b65bc69034c7",
               type: "LeafletMarker",
               value: { "latitude" : 48.3896089, "longitude" : 15.4748897, "popupContent" : "Wachau Cultural Landscape"} },
-{id: "f280ca240ba7689dbfe4700258d89f65",
+{id: "c2928b1304880c8d256b9f1f7c72a0d0",
               type: "LeafletMarker",
               value: { "latitude" : 48.2084917, "longitude" : 16.3723747, "popupContent" : "Historic Centre of Vienna"} },
-{id: "ceb7bad9fdc09bfd4606286d004b79b1",
+{id: "7c74ab658b0b78ebe0537761e353f8ef",
               type: "LeafletMarker",
               value: { "latitude" : 13.0820809, "longitude" : -59.6060126, "popupContent" : "Historic Bridgetown and its Garrison"} },
-{id: "d76badb53ff3a683f25c15be0db63626",
+{id: "a884b60083c9cbf42753ca99204e54f9",
               type: "LeafletMarker",
               value: { "latitude" : 50.8467887, "longitude" : 4.3524356, "popupContent" : "La Grand-Place, Brussels"} },
-{id: "2eba6dabfb1798c596e35113ca221d09",
+{id: "0cbd703822c2964eafbfe38849507f79",
               type: "LeafletMarker",
               value: { "latitude" : 51.2081, "longitude" : 3.2248, "popupContent" : "Belfries of Belgium and France  "} },
-{id: "544ebed4bac30cab575fa0407725d6f1",
+{id: "a58def5b8be2b5f39d59e53efa1dd8a0",
               type: "LeafletMarker",
               value: { "latitude" : 51.2093205, "longitude" : 3.2242126, "popupContent" : "Historic Centre of Brugge"} },
-{id: "56b71f3bb02190b87ee01bba43d8e700",
+{id: "d0caa6cb9f1a9c5526b1c6429b2c95c2",
               type: "LeafletMarker",
               value: { "latitude" : 50.8263577, "longitude" : 4.3654132, "popupContent" : "Major Town Houses of the Architect Victor Horta (Brussels)"} },
-{id: "5d51cdd1abfff733fc60e460e506f8ec",
+{id: "5e8572d0969a486f20826afef5f2a1c6",
               type: "LeafletMarker",
               value: { "latitude" : 43.3372849, "longitude" : 17.8150151, "popupContent" : "Old Bridge Area of the Old City of Mostar"} },
-{id: "1e3aff61f33f79d372bd88187f6564b8",
+{id: "d946c8b9447b6bce1873b2a2b7d4e5f1",
               type: "LeafletMarker",
               value: { "latitude" : 46.8121818, "longitude" : -71.2064933, "popupContent" : "Historic District of Old Québec"} },
-{id: "60b0b2e5e84da5992183445bf8fc39f8",
+{id: "0ad11f6687bb6cd34ed8ea1ca4f9274f",
               type: "LeafletMarker",
               value: { "latitude" : 41.797076, "longitude" : 123.455772, "popupContent" : "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang"} },
-{id: "198866826b2c619b45d6fbc4897bd88a",
+{id: "c557f88c096905262db7ca257339fe21",
               type: "LeafletMarker",
               value: { "latitude" : 40.4319, "longitude" : 116.5704, "popupContent" : "The Great Wall"} },
-{id: "1991f4def40535ad548375fe9a532a85",
+{id: "fb85132977ed5235c764b5d1dc87b561",
               type: "LeafletMarker",
               value: { "latitude" : 33.2600421, "longitude" : 103.9185994, "popupContent" : "Jiuzhaigou Valley Scenic and Historic Interest Area"} },
-{id: "ad3b722bb4e521b878771ba93a3476da",
+{id: "45bc422f7e4c4283196d2e3ea0036fdd",
               type: "LeafletMarker",
               value: { "latitude" : 29.516007, "longitude" : 103.334737, "popupContent" : "Mount Emei Scenic Area, including Leshan Giant Buddha Scenic Area"} },
-{id: "deb24aa96c68bb364343cf36b1c867b3",
+{id: "b2aec55aab1134953e8fd8d5c036eb5d",
               type: "LeafletMarker",
               value: { "latitude" : 31.324225, "longitude" : 120.629969, "popupContent" : "Classical Gardens of Suzhou"} },
-{id: "bfc52849665c6415bd5ae661da154471",
+{id: "3cc55b0a0973c12b4dd16fbb2152d93c",
               type: "LeafletMarker",
               value: { "latitude" : 40.0080982, "longitude" : 116.2982148, "popupContent" : "Summer Palace, an Imperial Garden in Beijing"} },
-{id: "a19fd3411bee63f7346a404193b18863",
+{id: "4ed7178e87fd25972c9b08a9b5cbc58e",
               type: "LeafletMarker",
               value: { "latitude" : 39.8821803, "longitude" : 116.4066056, "popupContent" : "Temple of Heaven: an Imperial Sacrificial Altar in Beijing"} },
-{id: "e2fc9f34ed2657094593d9a7938f0eff",
+{id: "ce4a81d8dd3c08ba6a54dc38c7892d84",
               type: "LeafletMarker",
               value: { "latitude" : 31.110449, "longitude" : 102.901969, "popupContent" : "Sichuan Giant Panda Sanctuaries - Wolong, Mt Siguniang and Jiajin Mountains"} },
-{id: "1bd0e2bfeeb32b9146e371e3d6fc515c",
+{id: "1831eeeace8195c273e2337dbeea94c4",
               type: "LeafletMarker",
               value: { "latitude" : 10.3932, "longitude" : -75.4832, "popupContent" : "Port, Fortresses and Group of Monuments, Cartagena"} },
-{id: "2bbb96e5f8c1be5fefdcdd56bfbe9ce6",
+{id: "b3759836e98a829332f8c302fa231578",
               type: "LeafletMarker",
               value: { "latitude" : 42.6410427, "longitude" : 18.1101425, "popupContent" : "Old City of Dubrovnik"} },
-{id: "ee23cd7b96510fb10700fbcc3afa66ca",
+{id: "9e436d2f9eb1a732d821bd8198977468",
               type: "LeafletMarker",
               value: { "latitude" : 48.8129556, "longitude" : 14.3151693, "popupContent" : "Historic Centre of Český Krumlov"} },
-{id: "02194e6fce9f2d5dc54eb94f34309817",
+{id: "befdd052d7b92c20beb583234a880cce",
               type: "LeafletMarker",
               value: { "latitude" : 50.0875692, "longitude" : 14.4211875, "popupContent" : "Historic Centre of Prague"} },
-{id: "ce4a402522703832f997d9407f12dcba",
+{id: "7eec60d7ef93850990665ad3f5036719",
               type: "LeafletMarker",
               value: { "latitude" : 49.944911, "longitude" : 15.26362, "popupContent" : "Kutná Hora: Historical Town Centre with the Church of St Barbara and the Cathedral of Our Lady at Sedlec"} },
-{id: "3fb127ac245dbf5004e7d3ab5555eb8c",
+{id: "2637faff29dfef82ec9415addef30fd8",
               type: "LeafletMarker",
               value: { "latitude" : 48.8057438, "longitude" : 2.1164023, "popupContent" : "Palace and Park of Versailles"} },
-{id: "fe89e912b3052ad9460cf906c6a1993f",
+{id: "70eb605fbc2485ce310d63863a09a431",
               type: "LeafletMarker",
               value: { "latitude" : 43.673049, "longitude" : 4.633614, "popupContent" : "Arles, Roman and Romanesque Monuments"} },
-{id: "bf2cc15fa261a869cf75ece6be3cc544",
+{id: "14ce6caaeb6b5f5e803cbe6f1f59c626",
               type: "LeafletMarker",
               value: { "latitude" : 44.1421744, "longitude" : 4.8047646, "popupContent" : "Roman Theatre and its Surroundings and the 'Triumphal Arch' of Orange"} },
-{id: "1a1a4ea60d8fb0f839255d025a2fb7a0",
+{id: "99861489381a04a04df40545ea9433cb",
               type: "LeafletMarker",
               value: { "latitude" : 43.947566, "longitude" : 4.53496, "popupContent" : "Pont du Gard (Roman Aqueduct)"} },
-{id: "91ab8e3cf36604dabd1329fb44a6a88c",
+{id: "305bcab5dd9057809c46558c216c9940",
               type: "LeafletMarker",
               value: { "latitude" : 48.8418565, "longitude" : 2.2683737, "popupContent" : "Paris, Banks of the Seine"} },
-{id: "eceab3dfbf3e366bfa95c54db814cc50",
+{id: "63b80fcfdeb31c747362cfaef7f59de6",
               type: "LeafletMarker",
               value: { "latitude" : 43.9508521, "longitude" : 4.8076971, "popupContent" : "Historic Centre of Avignon: Papal Palace, Episcopal Ensemble and Avignon Bridge"} },
-{id: "0d98462a22fd8f5a908af799daefcaaa",
+{id: "878096a11e56e3d2f7fd958d2f7a7163",
               type: "LeafletMarker",
               value: { "latitude" : 43.2427146, "longitude" : 2.4054572, "popupContent" : "Canal du Midi"} },
-{id: "63c05717021ccbf6c803234ecac5f71f",
+{id: "7162e863ad2cfb6d73c3455d4b98aa13",
               type: "LeafletMarker",
               value: { "latitude" : 43.2060816, "longitude" : 2.3641961, "popupContent" : "Historic Fortified City of Carcassonne"} },
-{id: "340cae8562ffbcf13304a8b8ed02e165",
+{id: "00deb86b70960d9adbf75b3c220b6298",
               type: "LeafletMarker",
               value: { "latitude" : 42.6755943, "longitude" : 0.0337596, "popupContent" : "Pyrénées - Mont Perdu "} },
-{id: "9e756a7628b58d1a483519e693f5ca62",
+{id: "dac9749319fb19b4fd7017e20441bc47",
               type: "LeafletMarker",
               value: { "latitude" : 44.8944, "longitude" : -0.1557, "popupContent" : "Jurisdiction of Saint-Emilion"} },
-{id: "8c8aaf6beb7101fc573e2d2b8c3e4e90",
+{id: "9c74e2330b8349cee4935d47229666cb",
               type: "LeafletMarker",
               value: { "latitude" : 47.5532402, "longitude" : 1.0105289, "popupContent" : "The Loire Valley between Sully-sur-Loire and Chalonnes "} },
-{id: "121dd62d12ebbee3cf3f4a4062a1e9ba",
+{id: "e869837469fafd1e152c2c79b3191156",
               type: "LeafletMarker",
               value: { "latitude" : 44.8276722, "longitude" : -0.5520093, "popupContent" : "Bordeaux, Port of the Moon"} },
-{id: "da48ffaf210f0cccde60b2c6ee43d4b5",
+{id: "9e11346b5ba56eb74fb27a0bd8f3dd97",
               type: "LeafletMarker",
               value: { "latitude" : 50.7747198, "longitude" : 6.0839201, "popupContent" : "Aachen Cathedral"} },
-{id: "c7b82e0dfb2ecfad46336c4da999ee7b",
+{id: "532fb905bb17591b6e0025bf80c8420e",
               type: "LeafletMarker",
               value: { "latitude" : 50.9412784, "longitude" : 6.9582814, "popupContent" : "Cologne Cathedral"} },
-{id: "48b219ee92d3e64144c9866452d7922c",
+{id: "641b5968d5cb10a405c13bd2e7cd8d3f",
               type: "LeafletMarker",
               value: { "latitude" : 52.5169328, "longitude" : 13.4018997, "popupContent" : "Museumsinsel (Museum Island), Berlin"} },
-{id: "b0a5a174554d834b81c89392172b5091",
+{id: "8a2eeb9d545a6a2301d15b4b999abcc0",
               type: "LeafletMarker",
               value: { "latitude" : 51.4877427, "longitude" : 7.0439172, "popupContent" : "Zollverein Coal Mine Industrial Complex in Essen"} },
-{id: "f4824567a840b5730bb85535dfdda777",
+{id: "7d54d72972094d95d06345f0fe21e152",
               type: "LeafletMarker",
               value: { "latitude" : 50.1614667, "longitude" : 7.7008637, "popupContent" : "Upper Middle Rhine Valley"} },
-{id: "8d0eb232935f99eccf932b67385227f4",
+{id: "d0d2fc7437397688dfc1b49e5b158c4c",
               type: "LeafletMarker",
               value: { "latitude" : 51.0447497, "longitude" : 13.8185267, "popupContent" : "Dresden Elbe Valley Delisted "} },
-{id: "042cc9e7c7d3286cb9f01037157a863a",
+{id: "45f38f251087d74546bc5cae2f3668a3",
               type: "LeafletMarker",
               value: { "latitude" : 5.8142836, "longitude" : 0.0746767, "popupContent" : "Forts and Castles, Volta, Greater Accra, Central and Western Regions"} },
-{id: "fbb3b9f36993b7515f0cdfda5c2fe778",
+{id: "b513b848e0a8ee4efdac8af5bb232de0",
               type: "LeafletMarker",
               value: { "latitude" : 6.4011213, "longitude" : -1.6258326, "popupContent" : "Asante Traditional Buildings"} },
-{id: "0397d4427700eafada7ea06f320ecf08",
+{id: "0e815d2f8f2543205b373f5066e98a01",
               type: "LeafletMarker",
               value: { "latitude" : 37.9715323, "longitude" : 23.7257492, "popupContent" : "Acropolis, Athens"} },
-{id: "fbfaadc6cd814ae0538e7e0bf28009b8",
+{id: "2f44e422871a874f8f78d36d02b946f3",
               type: "LeafletMarker",
               value: { "latitude" : 38.4803028, "longitude" : 22.4997992, "popupContent" : "Archaeological Site of Delphi"} },
-{id: "ad05ef93e65506809e3f726d3d7f4525",
+{id: "9ac0f1130edaa79b35807712d9bb50c7",
               type: "LeafletMarker",
               value: { "latitude" : 39.7217, "longitude" : 21.6306, "popupContent" : "Meteora"} },
-{id: "ad5ef2c03834b81319fb680cdf4d4504",
+{id: "5ec58e737a070a868f7e79702a6232bc",
               type: "LeafletMarker",
               value: { "latitude" : 41.8586767, "longitude" : 12.4767338, "popupContent" : "Historic Centre of Rome, the Properties of the Holy See in that City Enjoying Extraterritorial Rights and San Paolo Fuori le Mura "} },
-{id: "6de0e6ec3996408fcc5d06f6d55ad444",
+{id: "2f365e5bb006525280329cdc96f13cfe",
               type: "LeafletMarker",
               value: { "latitude" : 41.902916, "longitude" : 12.453389, "popupContent" : "Vatican City"} },
-{id: "88433ce43703cf4aa958fdf0826f6069",
+{id: "b5e9ecc9195fd9339e0a67e687ecbae6",
               type: "LeafletMarker",
               value: { "latitude" : 47.4962048, "longitude" : 19.0395666, "popupContent" : "Budapest, including the Banks of the Danube, the Buda Castle Quarter and Andrássy Avenue"} },
-{id: "de9495bcd0faa7e546af7c297804986d",
+{id: "88e563f4090b1e81c774fd6dd21e1c1b",
               type: "LeafletMarker",
               value: { "latitude" : 41.8586767, "longitude" : 12.4767338, "popupContent" : "Historic Centre of Rome, the Properties of the Holy See in that City Enjoying Extraterritorial Rights and San Paolo Fuori le Mura "} },
-{id: "07e08f5801ec3bc6d0e983e5ea6015e0",
+{id: "d6782c51c40fe2cf6eaf57c86f62d978",
               type: "LeafletMarker",
               value: { "latitude" : 43.7695604, "longitude" : 11.2558136, "popupContent" : "Historic Centre of Florence"} },
-{id: "1bc3de7b08567afaa7a26a07b20f32a2",
+{id: "bc2f409b0b83d77fde5610e3deb0a25f",
               type: "LeafletMarker",
               value: { "latitude" : 43.7232252, "longitude" : 10.3947238, "popupContent" : "Piazza del Duomo, Pisa"} },
-{id: "1510e35260bbd525f2b55e7d3021ecb2",
+{id: "058659a828335a940ec8afc67e2f26a2",
               type: "LeafletMarker",
               value: { "latitude" : 40.860039, "longitude" : 14.2632918, "popupContent" : "Historic Centre of Naples"} },
-{id: "d6d840842378251dc0766439deb0f1f5",
+{id: "60f0bcccda808c06f85e93cef0927c96",
               type: "LeafletMarker",
               value: { "latitude" : 40.8059222, "longitude" : 14.3494722, "popupContent" : "Archaeological Areas of Pompei, Herculaneum and Torre Annunziata"} },
-{id: "11592f6bd500508b70e54503ee2fc688",
+{id: "70631e64acbf24e677b23e2c39e061bb",
               type: "LeafletMarker",
               value: { "latitude" : 40.6333389, "longitude" : 14.6028963, "popupContent" : "Costiera Amalfitana"} },
-{id: "3a94275ce028b95e41117714617550c5",
+{id: "c38f9a511b443eef7b0b6d624ca7a115",
               type: "LeafletMarker",
               value: { "latitude" : 41.9428008, "longitude" : 12.774399, "popupContent" : "Villa Adriana (Tivoli)"} },
-{id: "57b40a5dac14b15699fcf1dad660de66",
+{id: "ef31affc8aa332b415cfca3369e388d2",
               type: "LeafletMarker",
               value: { "latitude" : 41.9633123, "longitude" : 12.7958058, "popupContent" : "Villa d'Este, Tivoli"} },
-{id: "9f439f18d75cc2fe0907f3599e68381d",
+{id: "bb8e0849e80f3904a026bab717734dd4",
               type: "LeafletMarker",
               value: { "latitude" : 34.8892908, "longitude" : 135.8076783, "popupContent" : "Historic Monuments of Ancient Kyoto (Kyoto, Uji and Otsu Cities)"} },
-{id: "81e30e10de5581ef36d2c8540b98fef0",
+{id: "709412798a395870a1c392e18aa961f1",
               type: "LeafletMarker",
               value: { "latitude" : 35.3606, "longitude" : 138.7274, "popupContent" : "Fujisan, sacred place and source of artistic inspiration"} },
-{id: "8d0990038ea9518477dc91370dfebe1d",
+{id: "ecf1876ef4003a769bb9ccb20354bf69",
               type: "LeafletMarker",
               value: { "latitude" : 20.6842849, "longitude" : -88.5677826, "popupContent" : "Pre-Hispanic City of Chichen-Itza"} },
-{id: "e3a49d6d19aada08a86dc4d243079dd5",
+{id: "32b8b01dc893af5554f20ffb02eb9bf2",
               type: "LeafletMarker",
               value: { "latitude" : 34.0630813, "longitude" : -4.9768757, "popupContent" : "Medina of Fez"} },
-{id: "29bd2f2ffa09f312064dbbec60b7e900",
+{id: "26aa74d5e2cbd5a8c04f76c91bcd1cdf",
               type: "LeafletMarker",
               value: { "latitude" : 31.6317937, "longitude" : -7.9892605, "popupContent" : "Medina of Marrakesh"} },
-{id: "cb7b3cbed50e06618d2d2712ab8457c9",
+{id: "a2b6fe1ee1a655441f7bb0562ff8b18f",
               type: "LeafletMarker",
               value: { "latitude" : 31.047043, "longitude" : -7.1318996, "popupContent" : "Ksar of Ait-Ben-Haddou"} },
-{id: "54edd337b8ba441d9cab4793e45556ae",
+{id: "4d754b293af08a5c7e68ddbd15a8b05a",
               type: "LeafletMarker",
               value: { "latitude" : 33.893054, "longitude" : -5.5654054, "popupContent" : "Historic City of Meknes"} },
-{id: "be011fea1fe29964209d6b6908377099",
+{id: "fa672c557744920dbf35a3a5751a2ae4",
               type: "LeafletMarker",
               value: { "latitude" : 34.0708021, "longitude" : -5.5526793, "popupContent" : "Archaeological Site of Volubilis"} },
-{id: "d6908e88c883752961dee3657aeb63d1",
+{id: "16240ee7fb2022cf41c8ead54ab0181a",
               type: "LeafletMarker",
               value: { "latitude" : 31.514159, "longitude" : -9.7685657, "popupContent" : "Medina of Essaouira (formerly Mogador)"} },
-{id: "9f18a2b398c488ca5dff76cd7aca46be",
+{id: "098f207986480a1ce7eb09b358468ae2",
               type: "LeafletMarker",
               value: { "latitude" : 34.0259072, "longitude" : -6.8364399, "popupContent" : "Rabat, Modern Capital and Historic City: a Shared Heritage"} },
-{id: "e28acbe24c37e603c00623d35dcd1b35",
+{id: "d602fcf59cb6e2850bdb24dcbd6ba08d",
               type: "LeafletMarker",
               value: { "latitude" : 50.0605443, "longitude" : 19.9417183, "popupContent" : "Historic Centre of Kraków"} },
-{id: "a7aac67143945b22ed7a12da7ed6ebcc",
+{id: "d0367acdee8ff8ac7f7130397516256a",
               type: "LeafletMarker",
               value: { "latitude" : 49.9689861, "longitude" : 20.4176528, "popupContent" : "Wieliczka and Bochnia Royal Salt Mines"} },
-{id: "ef3991f4c4f6be2d4b8029fd3625d493",
+{id: "e7de5dc7f8ac90d3097e76679852f818",
               type: "LeafletMarker",
               value: { "latitude" : 50.0346, "longitude" : 19.1758, "popupContent" : "Auschwitz Birkenau "} },
-{id: "7540b88b99c82ce1e8a5bd404785bf01",
+{id: "b2a91d01c229e8d384cdee11427edcff",
               type: "LeafletMarker",
               value: { "latitude" : 52.2477331, "longitude" : 21.0136079, "popupContent" : "Historic Centre of Warsaw"} },
-{id: "89d6a738b0af8fe6f1d32f3cf59ad0ff",
+{id: "000b0043172060f2303b06142d83795a",
               type: "LeafletMarker",
               value: { "latitude" : 49.8600889, "longitude" : 19.6721211, "popupContent" : "Kalwaria Zebrzydowska: the Mannerist Architectural and Park Landscape Complex and Pilgrimage Park"} },
-{id: "ae85d6788d6be3d741a3247279465797",
+{id: "9899bb2091ae605ec7d61fb0f2082e08",
               type: "LeafletMarker",
               value: { "latitude" : 46.135187, "longitude" : 24.5213084, "popupContent" : "Villages with Fortified Churches in Transylvania "} },
-{id: "6956b4b48709fae51a06b26c075628fe",
+{id: "548fa6728aa29fa50ab6445cb9b1253a",
               type: "LeafletMarker",
               value: { "latitude" : 46.219767, "longitude" : 24.7919154, "popupContent" : "Historic Centre of Sighişoara"} },
-{id: "f132f6a82f51d6823afc59f2bc74a5de",
+{id: "ba9b0d7d9e499e641f299bbf04f36fa7",
               type: "LeafletMarker",
               value: { "latitude" : 13.8033167, "longitude" : -61.0669688, "popupContent" : "Pitons Management Area"} },
-{id: "c2b5bbeec2eac0c2b7a49bb67f555438",
+{id: "df858f3872a967a4d12ac665ec8c676e",
               type: "LeafletMarker",
               value: { "latitude" : 37.1760783, "longitude" : -3.5881413, "popupContent" : "Alhambra, Generalife and Albayzín, Granada "} },
-{id: "c3ed187115980e0387e7dadf4402d6dc",
+{id: "823dcda2cae773f5d02e94dd7846fc5a",
               type: "LeafletMarker",
               value: { "latitude" : 37.8791918, "longitude" : -4.7797161, "popupContent" : "Historic Centre of Cordoba "} },
-{id: "be2c87796092f0acdc2ea6905b0df3d7",
+{id: "8b8956ae7b1c29feb475141b007b14dc",
               type: "LeafletMarker",
               value: { "latitude" : 40.5890408, "longitude" : -4.1477268, "popupContent" : "Monastery and Site of the Escurial, Madrid"} },
-{id: "811e29f0b014abe14fa1e9a63c6b1b16",
+{id: "1f216a80d8cb361befe81726e9c31da3",
               type: "LeafletMarker",
               value: { "latitude" : 41.3917, "longitude" : 2.164918, "popupContent" : "Works of Antoni Gaudí "} },
-{id: "482df1cef0888e7819fa20fcc7c6066e",
+{id: "d57c9c7b0ee1f976943890568a85b97a",
               type: "LeafletMarker",
               value: { "latitude" : 43.377452, "longitude" : -4.122347, "popupContent" : "Cave of Altamira and Paleolithic Cave Art of Northern Spain"} },
-{id: "7af745e3c757ee2e13249d0bbfce3bc6",
+{id: "7b0569fa06cbb3c187315dace7116cc5",
               type: "LeafletMarker",
               value: { "latitude" : 40.9479909, "longitude" : -4.1177913, "popupContent" : "Old Town of Segovia and its Aqueduct"} },
-{id: "5171deb47bce59fc9b7989ccb07b3e25",
+{id: "8ea90d0b1dc0252a4fdf0ab28dc23e9e",
               type: "LeafletMarker",
               value: { "latitude" : 42.8805962, "longitude" : -8.5446412, "popupContent" : "Santiago de Compostela (Old Town)"} },
-{id: "566c356fc34c5254d818f66021ee18f6",
+{id: "d96c40e9ff31c7dafeec239968bbe7dc",
               type: "LeafletMarker",
               value: { "latitude" : 39.8628, "longitude" : -4.0273, "popupContent" : "Historic City of Toledo"} },
-{id: "74ad17bef99e5827c02a0f79dd3a1a90",
+{id: "379afbf0fcfa35b0e10bf470f2ebc4da",
               type: "LeafletMarker",
               value: { "latitude" : 37.3849027, "longitude" : -5.9930945, "popupContent" : "Cathedral, Alcázar and Archivo de Indias in Seville"} },
-{id: "b18e06526beb03f46c72b99a14d615f6",
+{id: "255a3bdebec632125f654b9493196cff",
               type: "LeafletMarker",
               value: { "latitude" : 41.3875752, "longitude" : 2.1753128, "popupContent" : "Palau de la Música Catalana and Hospital de Sant Pau, Barcelona"} },
-{id: "3c40e84f6420d978de75f2db3d55ebac",
+{id: "0f40136e2231b38636b90ddb444fa906",
               type: "LeafletMarker",
               value: { "latitude" : 28.4874009, "longitude" : -16.3159061, "popupContent" : "San Cristóbal de La Laguna"} },
-{id: "32e3b020f8db78af11a0e204dbe7c3f8",
+{id: "fd55789faf6a546e04373c5415007647",
               type: "LeafletMarker",
               value: { "latitude" : 28.2723384, "longitude" : -16.642508, "popupContent" : "Teide National Park"} },
-{id: "7b28e7851b5703fccf751a6a23554afd",
+{id: "2d4650ee2c91a8c27543525e5c470f36",
               type: "LeafletMarker",
               value: { "latitude" : 46.94812, "longitude" : 7.4502755, "popupContent" : "Old City of Berne"} },
-{id: "6e15495831f2baac4b25467ffa2fdac0",
+{id: "e94398dc0a6dd43996157089c18a3de2",
               type: "LeafletMarker",
               value: { "latitude" : 46.4887031, "longitude" : 8.0530777, "popupContent" : "Swiss Alps Jungfrau-Aletsch"} },
-{id: "223dae1aa63e62765b86b6679e892ec2",
+{id: "a22a792f2039f24792d62e1aadd60056",
               type: "LeafletMarker",
               value: { "latitude" : 54.7732329, "longitude" : -1.5763921, "popupContent" : "Durham Castle and Cathedral"} },
-{id: "afd635f0ce9bcd4d71629893ba47bc52",
+{id: "2db1c26971eba97ab50db43ff629625c",
               type: "LeafletMarker",
               value: { "latitude" : 55.2408073, "longitude" : -6.5115554, "popupContent" : "Giant's Causeway and Causeway Coast"} },
-{id: "41de2ae3c5b00342b5d28bf8b1177d72",
+{id: "62fdd88923bcb0976d41df5d394051b6",
               type: "LeafletMarker",
               value: { "latitude" : 51.4289196, "longitude" : -1.8548908, "popupContent" : "Stonehenge, Avebury and Associated Sites"} },
-{id: "e07601265c9bc8db5f504b8cace7731f",
+{id: "dd111eb2ff03269887cf8da2c9f67344",
               type: "LeafletMarker",
               value: { "latitude" : 51.3811, "longitude" : -2.359, "popupContent" : "City of Bath"} },
-{id: "3aa889060a74fc2d0f751bb837cbc982",
+{id: "bfdd082d3edbd0375c275a67e5a538f2",
               type: "LeafletMarker",
               value: { "latitude" : 54.9899, "longitude" : -2.6017, "popupContent" : "Frontiers of the Roman Empire  "} },
-{id: "8116948f0af0fa5b0abcc677084747c1",
+{id: "27c8969c9d37f0b9aa9a8e392174d4e5",
               type: "LeafletMarker",
               value: { "latitude" : 51.4998221, "longitude" : -0.1266941, "popupContent" : "Palace of Westminster and Westminster Abbey including Saint Margaret’s Church"} },
-{id: "3e365f808b5e4f55a0c387e17585bd50",
+{id: "26c065406f968101b8f834c7f64c3434",
               type: "LeafletMarker",
               value: { "latitude" : 51.277883, "longitude" : 1.088522, "popupContent" : "Canterbury Cathedral, St Augustine's Abbey, and St Martin's Church"} },
-{id: "28cab503a4d390f3413fa0a5e2dc2b52",
+{id: "2bc648cdbd7a47f9b0c13623eb34c1ad",
               type: "LeafletMarker",
               value: { "latitude" : 51.5081124, "longitude" : -0.0759493, "popupContent" : "Tower of London"} },
-{id: "d3b98f19255a61ea26441f09a9c1aa97",
+{id: "bdffcdbebd40ab142146dd5ec3cccf48",
               type: "LeafletMarker",
               value: { "latitude" : 55.9549194, "longitude" : -3.1980237, "popupContent" : "Old and New Towns of Edinburgh"} },
-{id: "dc038abec4c87ac97743847e6bc7995f",
+{id: "92e6883a9c85b82b3d41aa9bf65ef199",
               type: "LeafletMarker",
               value: { "latitude" : 51.4933675, "longitude" : 0.0098214, "popupContent" : "Maritime Greenwich"} },
-{id: "7bf6c8069116420a9188d2b0f6e0d61b",
+{id: "a61122c9a2f5712cdf5f8a4f07f9ed44",
               type: "LeafletMarker",
               value: { "latitude" : 50.6214623, "longitude" : -2.2747373, "popupContent" : "Dorset and East Devon Coast"} },
-{id: "3ca7d7753cd00fea08ff2d08888ab9c3",
+{id: "ca819d7bdcc2625c54374759e393d06b",
               type: "LeafletMarker",
               value: { "latitude" : 53.8382, "longitude" : -1.7896, "popupContent" : "Saltaire"} },
-{id: "3d506bb7d2596d602ab2bde6c2e7f186",
+{id: "156e1921aae70ba449df64c0ff5cd55a",
               type: "LeafletMarker",
               value: { "latitude" : 51.4787438, "longitude" : -0.295573, "popupContent" : "Royal Botanic Gardens, Kew"} },
-{id: "44019d03607748b1293f0e8b1dc63e23",
+{id: "9ac5ffa83a760b9281b4621d651b96fe",
               type: "LeafletMarker",
               value: { "latitude" : 56.0006491, "longitude" : -3.3884392, "popupContent" : "The Forth Bridge"} },
-{id: "8a66ed93d4706a50a36d1708c4bfc4bb",
+{id: "e1a38f07faebab83cb99bcb520d80d40",
               type: "LeafletMarker",
               value: { "latitude" : -3.227889, "longitude" : 35.5074556, "popupContent" : "Ngorongoro Conservation Area "} },
-{id: "3fab73efd3346ff42be2402c920179ec",
+{id: "221f3e0c70e5b1f83021f3f7c2946d15",
               type: "LeafletMarker",
               value: { "latitude" : -2.3333333, "longitude" : 34.8333333, "popupContent" : "Serengeti National Park"} },
-{id: "e12a8ef1075c8b1f376099c5e689c1ef",
+{id: "b2a0e33b0457ae498afe9f174564ea1e",
               type: "LeafletMarker",
               value: { "latitude" : -3.0674247, "longitude" : 37.3556273, "popupContent" : "Kilimanjaro National Park"} },
-{id: "bab46ab3024b9bf58cf521846905ffeb",
+{id: "953deb526d2589068f34d7950b5529da",
               type: "LeafletMarker",
               value: { "latitude" : -6.162222, "longitude" : 39.1920735, "popupContent" : "Stone Town of Zanzibar"} },
-{id: "5a52354ff703df7ae3cca39f46912c4a",
+{id: "63af9c2a7d4fd25acc9b3f841fba9727",
               type: "LeafletMarker",
               value: { "latitude" : 44.427963, "longitude" : -110.588455, "popupContent" : "Yellowstone National Park"} },
-{id: "b9989db1bb49237d8fdf7fc021daa9f9",
+{id: "8d9195d6107b71d83e45c40331e5bb3a",
               type: "LeafletMarker",
               value: { "latitude" : 25.745929, "longitude" : -80.5549561, "popupContent" : "Everglades National Park"} },
-{id: "0bfb913da4d73e9b3f29c128f92a5e9a",
+{id: "d67b729d88c925327a439ca256d5b934",
               type: "LeafletMarker",
               value: { "latitude" : 36.1069258, "longitude" : -112.1129484, "popupContent" : "Grand Canyon National Park"} },
-{id: "1514547cae5a0ef3f4601d4a82ea1419",
+{id: "d11d1f454e56f415d2739d63c0437447",
               type: "LeafletMarker",
               value: { "latitude" : 39.9488737, "longitude" : -75.1500233, "popupContent" : "Independence Hall"} },
-{id: "314458ec30a76aa8b8cbda40e658a2b4",
+{id: "9fd350e941925ec00ec5c66a94ed521d",
               type: "LeafletMarker",
               value: { "latitude" : 61.7104448, "longitude" : -142.9856804, "popupContent" : "Kluane / Wrangell-St. Elias / Glacier Bay / Tatshenshini-Alsek   "} },
-{id: "389a0e5fc22ee5589ecdbee0bcc2c218",
+{id: "bf7abab63f432f0c44cd7f1a557c7a66",
               type: "LeafletMarker",
               value: { "latitude" : 47.8021067, "longitude" : -123.6043524, "popupContent" : "Olympic National Park"} },
-{id: "3b01666490e4683f2442254e22c11290",
+{id: "b81fb8bbd1a2dc7aaee02f5e8a49b3d2",
               type: "LeafletMarker",
               value: { "latitude" : 35.6130503, "longitude" : -83.5531537, "popupContent" : "Great Smoky Mountains National Park"} },
-{id: "e8ccf4c753e86dfb74f29af555ecb2e4",
+{id: "43718792e9f9dba6dc138d069f23590d",
               type: "LeafletMarker",
               value: { "latitude" : 18.4686841, "longitude" : -66.1207495, "popupContent" : "La Fortaleza and San Juan National Historic Site in Puerto Rico"} },
-{id: "7f585763495245ed09c5100cf156e8da",
+{id: "9b90d502085a37da8280b58d36b7dfe2",
               type: "LeafletMarker",
               value: { "latitude" : 40.6892494, "longitude" : -74.0445004, "popupContent" : "Statue of Liberty"} },
-{id: "ac129dc59ddd334eaafc4fdcf4f96a92",
+{id: "58457141877bdb27d141e4a7c602429c",
               type: "LeafletMarker",
               value: { "latitude" : 37.8651011, "longitude" : -119.5383294, "popupContent" : "Yosemite National Park "} },
-{id: "12cd7d05f191f8fbc3f127aaa8343eab",
+{id: "9a87cdb1ab4bf560dbb94c2851828ee8",
               type: "LeafletMarker",
               value: { "latitude" : 19.4193697, "longitude" : -155.2884969, "popupContent" : "Hawaii Volcanoes National Park "} },
-{id: "5d31d58ebdde9d8299be108e4a9e61be",
+{id: "60d78bd64df5e510f665c4016d3b2867",
               type: "LeafletMarker",
               value: { "latitude" : 29.3603996, "longitude" : -98.4791927, "popupContent" : "San Antonio Missions"} },
 ];
 
     // Override the map div id if specified, apply default CSS
-    var defaultMapElId = "leaflet-map-a31d1dc8c734885d4fd9dad739cb618b";
+    var defaultMapElId = "leaflet-map-9f930d2a3d7a80a258d91222d99a3626";
    var defaultMapElStyle = "height:500px; margin-top:0px; margin-bottom:0px";
     var mapEl = document.getElementById(defaultMapElId);
     if('divId' in tagInputArg){
@@ -572,7 +516,7 @@
 
 //The actual section that is called that creates a map
     function createMap(){
-        console.log("Creating map a31d1dc8c734885d4fd9dad739cb618b with these args:");
+        console.log("Creating map 9f930d2a3d7a80a258d91222d99a3626 with these args:");
         console.log(tagInputArg);
 
         //Initialize Map with the correct input arguments
@@ -2074,50 +2018,4 @@
     </tr>
   </tbody>
 </table>
-
-
-            </article>
-        </main>
-
-        <footer>
-          <p class="copy">
-            <small> &copy; John Lu 2021
-                    | Powered by Jekyll |
-                    Last updated on 19 June 2021
-            </small>
-          </p>
-
-        <div class="rounded-social-buttons"><a title=""
-class="social-button email" itemprop="email"
-href="mailto:%6A%6F%68%6E%6C%75@%73%74%61%6E%66%6F%72%64.%65%64%75" target="_blank">
-<i class="far fa-envelope"></i>
-</a><a title=""
-class="social-button linkedin"
-href="https://www.linkedin.com/in/johnminglu" itemprop="sameAs"
-target="_blank">
-<i class="fab fa-linkedin"></i>
-</a><a title=""
-class="social-button github"
-href="https://www.github.com/johnminglu" itemprop="sameAs"
-target="_blank">
-<i class="fab fa-github"></i>
-</a><a title=""
-class="social-button orcid"
-href="https://orcid.org/0000-0002-3972-8854" itemprop="sameAs"
-target="_blank">
-<i class="fab fa-orcid"></i>
-</a></div>
-
-
-        </footer>
-
-        <!-- Google Analytics Tracking code -->
-<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
-<script>
-var galite = galite || {};
-galite.UA = '';
-</script>
-
-    </body>
-
-</html>
+:ET
