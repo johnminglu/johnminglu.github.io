@@ -1,6 +1,10 @@
-<!-- Google Analytics Tracking code -->
-<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<link rel="preconnect" as="script" 
+  href="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID">
+  
 <script>
-var galite = galite || {};
-galite.UA = '{{site.analytics}}';
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', YOUR_TRACKING_ID);
 </script>

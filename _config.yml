@@ -3,8 +3,8 @@
 title: John Lu
 description: MD-PhD Student | Stanford University School of Medicine
 
-baseurl: johnminglu.github.io
-url: #custom url to be used instead of GitHub repository
+baseurl: #
+url: johnminglu.github.io
 email: johnlu@stanford.edu
 
 
