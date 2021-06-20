@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: /johnminglu.github.io/sitemap.xml
