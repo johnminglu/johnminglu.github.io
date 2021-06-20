@@ -135,7 +135,7 @@ One of my passions is traveling to see the world as it is. I enjoy meeting new p
 
 |      |                                                              |
 | ---- | ------------------------------------------------------------ |
-|      | <b>Austria </b>                                        |
+|      | <b>Austria </b>                                              |
 | 1    | Historic Centre of the City of Salzburg                      |
 | 2    | Palace and Gardens of Schönbrunn                             |
 | 3    | Wachau Cultural Landscape                                    |
@@ -170,11 +170,11 @@ One of my passions is traveling to see the world as it is. I enjoy meeting new p
 | 24   | Kutná Hora: Historical Town Centre with the Church of St Barbara and the  Cathedral of Our Lady at Sedlec |
 |      | <br/> <b>France </b>                                         |
 | 25   | Palace and Park of Versailles                                |
-| 26   | Arles, Roman and Romanesque Monuments                        |
-| 27   | Roman Theatre and its Surroundings and the "Triumphal Arch" of  Orange |
-| 28   | Pont du Gard (Roman Aqueduct)                                |
+| 26   | [Arles, Roman and Romanesque Monuments]({{ site.url }}/blog/2018/provence/) |
+| 27   | [Roman Theatre and its Surroundings and the "Triumphal Arch" of  Orange]({{ site.url }}/blog/2018/provence/) |
+| 28   | [Pont du Gard (Roman Aqueduct)]({{ site.url }}/blog/2018/provence/) |
 | 29   | Paris, Banks of the Seine                                    |
-| 30   | Historic Centre of Avignon: Papal Palace, Episcopal Ensemble and Avignon  Bridge |
+| 30   | [Historic Centre of Avignon: Papal Palace, Episcopal Ensemble and Avignon  Bridge]({{ site.url }}/blog/2018/provence/) |
 | 31   | Canal du Midi                                                |
 | 32   | Historic Fortified City of Carcassonne                       |
 | 33   | Pyrénées - Mont Perdu                                        |
@@ -252,7 +252,7 @@ One of my passions is traveling to see the world as it is. I enjoy meeting new p
 |      | <br/> <b>United Kingdom of Great Britain and Northern Ireland  </b> |
 | 91   | Durham Castle and Cathedral                                  |
 | 92   | Giant's Causeway and Causeway Coast                          |
-| 93   | Stonehenge, Avebury and Associated Sites                     |
+| 93   | [Stonehenge]({{ site.url }}/blog/2018/stonehenge/), Avebury and Associated Sites |
 | 94   | City of Bath                                                 |
 | 95   | Frontiers of the Roman Empire                                |
 | 96   | Palace of Westminster and Westminster Abbey including Saint Margaret’s  Church |
